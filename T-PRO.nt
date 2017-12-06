@@ -1,0 +1,609 @@
+<http://provenienz.gbv.de/thesaurus#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://provenienz.gbv.de/thesaurus#> <http://purl.org/dc/terms/created> "2003"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://provenienz.gbv.de/thesaurus#> <http://purl.org/dc/terms/creator> "Herzogin Anna Amalia Bibliothek Weimar"@de .
+<http://provenienz.gbv.de/thesaurus#> <http://purl.org/dc/terms/contributor> "Staatsbibliothek zu Berlin \u00E2\u0080\u0093 Preu\u00C3\u009Fischer Kulturbesitz"@de .
+<http://provenienz.gbv.de/thesaurus#> <http://purl.org/dc/terms/contributor> "dbv-Kommission Provenienzforschung und Provenienzerschlie\u00DFung"@de .
+<http://provenienz.gbv.de/thesaurus#> <http://www.w3.org/2004/02/skos/core#prefLabel> "T-PRO Thesaurus der Provenienzbegriffe"@de .
+<http://provenienz.gbv.de/thesaurus#> <http://www.w3.org/2004/02/skos/core#note> "Provenienzbegriffe bezeichnen Merkmale von Spuren, die Vorbesitzer (Personen und Institutionen) in und auf B\u00FCchern, Handschriften oder anderen Artefakten hinterlassen haben. Diese Merkmale kennzeichnen Besitz, Lesespuren oder Zensurabsichten. Der Thesaurus der Provenienzbegriffe dient zur Dokumentation und Recherche dieser Merkmale"@de .
+<http://provenienz.gbv.de/thesaurus#auffuehrungsexemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#auffuehrungsexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Auff\u00FChrungsexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#auffuehrungsexemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#auffuehrungsexemplar> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar, das f\u00FCr eine Auff\u00FChrung verwendet wurde, z.B. Rollen-, Regie- oder Soufflierbuch"@de .
+<http://provenienz.gbv.de/thesaurus#auktionsexemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#auktionsexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Auktionsexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#auktionsexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "auction copies"@en .
+<http://provenienz.gbv.de/thesaurus#auktionsexemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#auktionsexemplar> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar, das auf einer Auktion versteigert worden ist. Quellen sind z.B. aktuelle und historische Erwerbungsunterlagen, Auktionskataloge, Einlagen. Oft kombiniert mit Einlage: Zettel, Nummer, Preis, Kaufdatum"@de .
+<http://provenienz.gbv.de/thesaurus#aussonderungsexemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#aussonderungsexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aussonderungsexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#aussonderungsexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "withdrawn copies"@en .
+<http://provenienz.gbv.de/thesaurus#aussonderungsexemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#aussonderungsexemplar> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#bibliotheksexemplar> .
+<http://provenienz.gbv.de/thesaurus#aussonderungsexemplar> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#dublettenstempel> .
+<http://provenienz.gbv.de/thesaurus#aussonderungsexemplar> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar, das aus dem Bestand einer Institution ausgesondert worden ist"@de .
+<http://provenienz.gbv.de/thesaurus#autogramm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#autogramm> <http://www.w3.org/2004/02/skos/core#prefLabel> "Autogramm"@de .
+<http://provenienz.gbv.de/thesaurus#autogramm> <http://www.w3.org/2004/02/skos/core#prefLabel> "autographs"@en .
+<http://provenienz.gbv.de/thesaurus#autogramm> <http://www.w3.org/2004/02/skos/core#prefLabel> "signature"@fr .
+<http://provenienz.gbv.de/thesaurus#autogramm> <http://www.w3.org/2004/02/skos/core#altLabel> "Namenszug"@de .
+<http://provenienz.gbv.de/thesaurus#autogramm> <http://www.w3.org/2004/02/skos/core#altLabel> "Unterschrift"@de .
+<http://provenienz.gbv.de/thesaurus#autogramm> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#autogramm> <http://www.w3.org/2004/02/skos/core#definition> "Eigenh\u00E4ndiger Namenszug"@de .
+<http://provenienz.gbv.de/thesaurus#belegexemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#belegexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Belegexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#belegexemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#belegexemplar> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar, das dem Autor oder einer Institution aufgrund vertraglicher Vereinbarungen als Beleg f\u00FCr eine Publikation zur Verf\u00FCgung gestellt worden ist."@de .
+<http://provenienz.gbv.de/thesaurus#beutegut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#beutegut> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beutegut"@de .
+<http://provenienz.gbv.de/thesaurus#beutegut> <http://www.w3.org/2004/02/skos/core#prefLabel> "loot"@en .
+<http://provenienz.gbv.de/thesaurus#beutegut> <http://www.w3.org/2004/02/skos/core#prefLabel> "livre-troph\u00E9e"@fr .
+<http://provenienz.gbv.de/thesaurus#beutegut> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#ns-raubgut> .
+<http://provenienz.gbv.de/thesaurus#beutegut> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#restitution> .
+<http://provenienz.gbv.de/thesaurus#beutegut> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#restitutionsexemplar> .
+<http://provenienz.gbv.de/thesaurus#beutegut> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#beutegut> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#enteignung> .
+<http://provenienz.gbv.de/thesaurus#beutegut> <http://www.w3.org/2004/02/skos/core#definition> "Kriegsbedingt verbrachtes Verm\u00F6gen"@de .
+<http://provenienz.gbv.de/thesaurus#bibliotheksexemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#bibliotheksexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bibliotheksexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#bibliotheksexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "library copies"@en .
+<http://provenienz.gbv.de/thesaurus#bibliotheksexemplar> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#signatur> .
+<http://provenienz.gbv.de/thesaurus#bibliotheksexemplar> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#zugangsnummer> .
+<http://provenienz.gbv.de/thesaurus#bibliotheksexemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#bibliotheksexemplar> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar aus dem Besitz von Institutionen (im Gegensatz zu Privatsammlungen), z.B. Archiv, Gesellschaft, Schule. Oft kombiniert mit Nummer, Signatur, Stempel"@de .
+<http://provenienz.gbv.de/thesaurus#bodenreform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#bodenreform> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bodenreform"@de .
+<http://provenienz.gbv.de/thesaurus#bodenreform> <http://www.w3.org/2004/02/skos/core#prefLabel> "land reform"@en .
+<http://provenienz.gbv.de/thesaurus#bodenreform> <http://www.w3.org/2004/02/skos/core#prefLabel> "r\u00E9forme agraire"@fr .
+<http://provenienz.gbv.de/thesaurus#bodenreform> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#restitution> .
+<http://provenienz.gbv.de/thesaurus#bodenreform> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#restitutionsexemplar> .
+<http://provenienz.gbv.de/thesaurus#bodenreform> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#bodenreform> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#enteignung> .
+<http://provenienz.gbv.de/thesaurus#bodenreform> <http://www.w3.org/2004/02/skos/core#definition> "Der Begriff Bodenreform bezeichnet eine \u00C4nderung der Eigentums- oder Nutzungsrechte an Grund, Boden und Ausstattung, z.B. Bodenreform in Deutschland nach Kriegsende 1945 in der Sowjetischen Besatzungszone (SBZ)"@de .
+<http://provenienz.gbv.de/thesaurus#buchschnitt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#buchschnitt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Buchschnitt"@de .
+<http://provenienz.gbv.de/thesaurus#buchschnitt> <http://www.w3.org/2004/02/skos/core#prefLabel> "edge-marks"@en .
+<http://provenienz.gbv.de/thesaurus#buchschnitt> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#einband> .
+<http://provenienz.gbv.de/thesaurus#buchschnitt> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#buchschnitt> <http://www.w3.org/2004/02/skos/core#definition> "Merkmale auf dem Buchschnitt, die auf die Provenienz hinweisen, z.B. Notiz, Signatur, Stempel"@de .
+<http://provenienz.gbv.de/thesaurus#datum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#datum> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum"@de .
+<http://provenienz.gbv.de/thesaurus#datum> <http://www.w3.org/2004/02/skos/core#prefLabel> "dates"@en .
+<http://provenienz.gbv.de/thesaurus#datum> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#kaufdatum> .
+<http://provenienz.gbv.de/thesaurus#datum> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#lesedatum> .
+<http://provenienz.gbv.de/thesaurus#datum> <http://www.w3.org/2004/02/skos/core#definition> "Zeitangabe jeder Art"@de .
+<http://provenienz.gbv.de/thesaurus#dublettenstempel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#dublettenstempel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dublettenstempel"@de .
+<http://provenienz.gbv.de/thesaurus#dublettenstempel> <http://www.w3.org/2004/02/skos/core#prefLabel> "duplicate stamps"@en .
+<http://provenienz.gbv.de/thesaurus#dublettenstempel> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#aussonderungsexemplar> .
+<http://provenienz.gbv.de/thesaurus#dublettenstempel> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#dublettenstempel> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#stempel> .
+<http://provenienz.gbv.de/thesaurus#dublettenstempel> <http://www.w3.org/2004/02/skos/core#definition> "Stempelabdruck, der die Aussonderung von Zweit- und Staffelexemplaren kennzeichnet"@de .
+<http://provenienz.gbv.de/thesaurus#durchschossenes_exemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#durchschossenes_exemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Durchschossenes Exemplar"@de .
+<http://provenienz.gbv.de/thesaurus#durchschossenes_exemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "interleaved copy"@en .
+<http://provenienz.gbv.de/thesaurus#durchschossenes_exemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "exemplaire interfoli\u00E9"@fr .
+<http://provenienz.gbv.de/thesaurus#durchschossenes_exemplar> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#extra-ausstattung> .
+<http://provenienz.gbv.de/thesaurus#durchschossenes_exemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#durchschossenes_exemplar> <http://www.w3.org/2004/02/skos/core#definition> "Buchexemplar, das zwischen den einzelnen bedruckten Bl\u00E4ttern mit leeren Bl\u00E4ttern versehen ist"@de .
+<http://provenienz.gbv.de/thesaurus#einband> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#einband> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einband"@de .
+<http://provenienz.gbv.de/thesaurus#einband> <http://www.w3.org/2004/02/skos/core#prefLabel> "bindings"@en .
+<http://provenienz.gbv.de/thesaurus#einband> <http://www.w3.org/2004/02/skos/core#prefLabel> "reliures"@fr .
+<http://provenienz.gbv.de/thesaurus#einband> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#buchschnitt> .
+<http://provenienz.gbv.de/thesaurus#einband> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#makulatur> .
+<http://provenienz.gbv.de/thesaurus#einband> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#einband> <http://www.w3.org/2004/02/skos/core#definition> "Einband mit Merkmalen auf der Au\u00DFenseite der Buchdeckel und des Buchr\u00FCckens, die auf die Provenienz hinweisen, z.B. Initiale, Monogramm, Signatur, Wappen"@de .
+<http://provenienz.gbv.de/thesaurus#einlage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#einlage> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einlage"@de .
+<http://provenienz.gbv.de/thesaurus#einlage> <http://www.w3.org/2004/02/skos/core#prefLabel> "insertions"@en .
+<http://provenienz.gbv.de/thesaurus#einlage> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#einlage> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#einlage_brief> .
+<http://provenienz.gbv.de/thesaurus#einlage> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#einlage_fotografie> .
+<http://provenienz.gbv.de/thesaurus#einlage> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#einlage_lesezeichen> .
+<http://provenienz.gbv.de/thesaurus#einlage> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#einlage_zettel> .
+<http://provenienz.gbv.de/thesaurus#einlage> <http://www.w3.org/2004/02/skos/core#definition> "Einlage oder Beilage jeder Art, die Hinweise auf den Vorbesitzer gibt"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_brief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#einlage_brief> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einlage: Brief"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_brief> <http://www.w3.org/2004/02/skos/core#altLabel> "Ansichtskarte"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_brief> <http://www.w3.org/2004/02/skos/core#altLabel> "Postkarte"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_brief> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#einlage_zettel> .
+<http://provenienz.gbv.de/thesaurus#einlage_brief> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#einlage_brief> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#einlage> .
+<http://provenienz.gbv.de/thesaurus#einlage_brief> <http://www.w3.org/2004/02/skos/core#definition> "Schriftliche Mitteilung an einen bestimmten Adressaten; oft mit Autogramm oder Initialen und Datum versehen"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_fotografie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#einlage_fotografie> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einlage: Fotografie"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_fotografie> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#einlage_fotografie> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#einlage> .
+<http://provenienz.gbv.de/thesaurus#einlage_fotografie> <http://www.w3.org/2004/02/skos/core#definition> "Fotoabzug auf Papier; nicht benutzt f\u00FCr Reproduktionen in Zeitungen oder auf Ansichtskarten"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_haar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#einlage_haar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einlage: Haar"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_haar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#einlage_haar> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#einlage> .
+<http://provenienz.gbv.de/thesaurus#einlage_haar> <http://www.w3.org/2004/02/skos/core#definition> "Haar/e, Haarlocke"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_lesezeichen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#einlage_lesezeichen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einlage: Lesezeichen"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_lesezeichen> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#einlage_lesezeichen> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#einlage> .
+<http://provenienz.gbv.de/thesaurus#einlage_lesezeichen> <http://www.w3.org/2004/02/skos/core#definition> "K\u00FCnstlerisch oder als Werbetr\u00E4ger gestaltetes Lesezeichen; nicht benutzt f\u00FCr Papierschnipsel oder Eselsohren"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_pflanze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#einlage_pflanze> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einlage: Pflanze"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_pflanze> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#einlage> .
+<http://provenienz.gbv.de/thesaurus#einlage_pflanze> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#einlage_pflanze> <http://www.w3.org/2004/02/skos/core#definition> "Pflanze oder Pflanzenteile"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_zettel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#einlage_zettel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einlage: Zettel"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_zettel> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#einlage_zettel> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#einlage> .
+<http://provenienz.gbv.de/thesaurus#einlage_zettel> <http://www.w3.org/2004/02/skos/core#definition> "Notizzettel, bis 30.09.2014: auch f\u00FCr Zeitungsauschnitt"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_zettel_zeitungsausschnitt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#einlage_zettel_zeitungsausschnitt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einlage: Zettel: Zeitungsausschnitt"@de .
+<http://provenienz.gbv.de/thesaurus#einlage_zettel_zeitungsausschnitt> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#einlage_zettel_zeitungsausschnitt> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#einlage_zettel> .
+<http://provenienz.gbv.de/thesaurus#einlage_zettel_zeitungsausschnitt> <http://www.w3.org/2004/02/skos/core#definition> "Ausschnitt (auch Ausriss oder Einzelseite) aus Zeitung oder Zeitschrift"@de .
+<http://provenienz.gbv.de/thesaurus#emblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#emblem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emblem"@de .
+<http://provenienz.gbv.de/thesaurus#emblem> <http://www.w3.org/2004/02/skos/core#prefLabel> "devices"@en .
+<http://provenienz.gbv.de/thesaurus#emblem> <http://www.w3.org/2004/02/skos/core#prefLabel> "embl\u00E8me"@fr .
+<http://provenienz.gbv.de/thesaurus#emblem> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#emblem> <http://www.w3.org/2004/02/skos/core#definition> "Sinnbild"@de .
+<http://provenienz.gbv.de/thesaurus#enteignung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#enteignung> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enteignung"@de .
+<http://provenienz.gbv.de/thesaurus#enteignung> <http://www.w3.org/2004/02/skos/core#prefLabel> "expropriation"@en .
+<http://provenienz.gbv.de/thesaurus#enteignung> <http://www.w3.org/2004/02/skos/core#prefLabel> "expropriation"@fr .
+<http://provenienz.gbv.de/thesaurus#enteignung> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#enteignung> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#beutegut> .
+<http://provenienz.gbv.de/thesaurus#enteignung> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#bodenreform> .
+<http://provenienz.gbv.de/thesaurus#enteignung> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#ns-raubgut> .
+<http://provenienz.gbv.de/thesaurus#enteignung> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#saekularisationsgut> .
+<http://provenienz.gbv.de/thesaurus#enteignung> <http://www.w3.org/2004/02/skos/core#definition> "Als Enteignung wird der Entzug des Eigentums an einer beweglichen oder unbeweglichen Sache durch einen hoheitlichen Akt bezeichnet"@de .
+<http://provenienz.gbv.de/thesaurus#etikett> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#etikett> <http://www.w3.org/2004/02/skos/core#prefLabel> "Etikett"@de .
+<http://provenienz.gbv.de/thesaurus#etikett> <http://www.w3.org/2004/02/skos/core#prefLabel> "labels"@en .
+<http://provenienz.gbv.de/thesaurus#etikett> <http://www.w3.org/2004/02/skos/core#prefLabel> "vignettes"@fr .
+<http://provenienz.gbv.de/thesaurus#etikett> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel> .
+<http://provenienz.gbv.de/thesaurus#etikett> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#etikett> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#etikett_buchbinder> .
+<http://provenienz.gbv.de/thesaurus#etikett> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> .
+<http://provenienz.gbv.de/thesaurus#etikett> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> .
+<http://provenienz.gbv.de/thesaurus#etikett> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> .
+<http://provenienz.gbv.de/thesaurus#etikett> <http://www.w3.org/2004/02/skos/core#definition> "Anh\u00E4nger, Aufkleber jeder Art"@de .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinder> <http://www.w3.org/2004/02/skos/core#prefLabel> "Etikett: Buchbinder"@de .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinder> <http://www.w3.org/2004/02/skos/core#prefLabel> "binders' tickets"@en .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinder> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinder> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchbinder> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinder> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchbinderin> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinder> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinder> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#etikett> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinder> <http://www.w3.org/2004/02/skos/core#definition> "Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Nummer, Preis und Datum"@de .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Etikett: Buchbinderin"@de .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> <http://www.w3.org/2004/02/skos/core#prefLabel> "binders' tickets"@en .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchbinder> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchbinder> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchbinderin> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#etikett> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> <http://www.w3.org/2004/02/skos/core#definition> "Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Nummer, Preis und Datum"@de .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Etikett: Buchh\u00E4ndler"@de .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> <http://www.w3.org/2004/02/skos/core#prefLabel> "booksellers' labels"@en .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchhaendler> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#etikett> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> <http://www.w3.org/2004/02/skos/core#definition> "Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Preis und Datum"@de .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Etikett: Buchh\u00E4ndlerin"@de .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#prefLabel> "booksellers' labels"@en .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchhaendler> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#etikett> .
+<http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#definition> "Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Preis und Datum"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_autor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#exemplar_autor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exemplar: Autor"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_autor> <http://www.w3.org/2004/02/skos/core#prefLabel> "authors' copies"@en .
+<http://provenienz.gbv.de/thesaurus#exemplar_autor> <http://www.w3.org/2004/02/skos/core#prefLabel> "envoi de l'auteur"@fr .
+<http://provenienz.gbv.de/thesaurus#exemplar_autor> <http://www.w3.org/2004/02/skos/core#altLabel> "Autorenexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_autor> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_autorin> .
+<http://provenienz.gbv.de/thesaurus#exemplar_autor> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#exemplar_autor> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar, das vom Autor benutzt worden ist (z.B. f\u00FCr Korrekturen) oder das Teil seiner Privatbibliothek war; oft kombiniert mit Autogramm, Initiale, Datum. Der Begriff wird nicht f\u00FCr Exemplare gebraucht, die vom Autor einfach nur gewidmet oder verschenkt worden sind"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_autorin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#exemplar_autorin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exemplar: Autorin"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_autorin> <http://www.w3.org/2004/02/skos/core#prefLabel> "authors' copies"@en .
+<http://provenienz.gbv.de/thesaurus#exemplar_autorin> <http://www.w3.org/2004/02/skos/core#prefLabel> "envoi de l'auteur"@fr .
+<http://provenienz.gbv.de/thesaurus#exemplar_autorin> <http://www.w3.org/2004/02/skos/core#altLabel> "Autorenexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_autorin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_autor> .
+<http://provenienz.gbv.de/thesaurus#exemplar_autorin> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#exemplar_autorin> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar, das von der Autorin benutzt worden ist (z.B. f\u00FCr Korrekturen) oder das Teil seiner Privatbibliothek war; oft kombiniert mit Autogramm, Initiale, Datum. Der Begriff wird nicht f\u00FCr Exemplare gebraucht, die von der Autorin einfach nur gewidmet oder verschenkt worden sind"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exemplar: Donator"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#prefLabel> "donors' copies"@en .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#prefLabel> "ex-dono imprim\u00E9"@fr .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#altLabel> "ex-legato imprim\u00E9"@fr .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_donatorin> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#belegexemplar> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#tauschexemplar> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#widmung> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar, das der Vorbesitzer (Donator) verschenkt, gespendet oder gestiftet hat; nicht verwendet f\u00FCr Absender von Beleg- und Tauschexemplaren."@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_donator> <http://www.w3.org/2004/02/skos/core#note> "Institutionen werden als \"Donator\" bezeichnet"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exemplar: Donatorin"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#prefLabel> "donors' copies"@en .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#prefLabel> "ex-dono imprim\u00E9"@fr .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#altLabel> "ex-legato imprim\u00E9"@fr .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_donator> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#belegexemplar> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#tauschexemplar> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#widmung> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar, das die Vorbesitzerin (Donatorin) verschenkt, gespendet oder gestiftet hat; nicht verwendet f\u00FCr Absenderinnen von Beleg- und Tauschexemplaren"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_donatorin> <http://www.w3.org/2004/02/skos/core#note> "Institutionen werden als \"Donator\" bezeichnet"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exemplar: Widmungsempf\u00E4nger"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/2004/02/skos/core#prefLabel> "dedicatees' copies"@en .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_donator> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_donatorin> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#widmung> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#widmung_autor> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#widmung_autorin> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar der Person oder Institution, der das Exemplar gewidmet worden ist"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> <http://www.w3.org/2004/02/skos/core#note> "Institutionen werden als \"-empf\u00E4nger\" bezeichnet"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exemplar: Widmungsempf\u00E4ngerin"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/2004/02/skos/core#prefLabel> "dedicatees' copies"@en .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_donator> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_donatorin> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#widmung> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#widmung_autor> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#widmung_autorin> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar der Person, der das Exemplar gewidmet worden ist"@de .
+<http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> <http://www.w3.org/2004/02/skos/core#note> "Institutionen werden als \"-empf\u00E4nger\" bezeichnet"@de .
+<http://provenienz.gbv.de/thesaurus#exlibris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#exlibris> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exlibris"@de .
+<http://provenienz.gbv.de/thesaurus#exlibris> <http://www.w3.org/2004/02/skos/core#prefLabel> "bookplates"@en .
+<http://provenienz.gbv.de/thesaurus#exlibris> <http://www.w3.org/2004/02/skos/core#prefLabel> "ex-libris"@fr .
+<http://provenienz.gbv.de/thesaurus#exlibris> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#exlibris> <http://www.w3.org/2004/02/skos/core#definition> "Auf der Innenseite des vorderen Buchdeckels aufgeklebter Zettel oder aufgedruckter Stempel; oft kombiniert mit Autogramm, Emblem, Initiale, Monogramm, Motto, Wappen"@de .
+<http://provenienz.gbv.de/thesaurus#extra-ausstattung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#extra-ausstattung> <http://www.w3.org/2004/02/skos/core#prefLabel> "Extra-Ausstattung"@de .
+<http://provenienz.gbv.de/thesaurus#extra-ausstattung> <http://www.w3.org/2004/02/skos/core#prefLabel> "extra-illustrated copies"@en .
+<http://provenienz.gbv.de/thesaurus#extra-ausstattung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#durchschossenes_exemplar> .
+<http://provenienz.gbv.de/thesaurus#extra-ausstattung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#handzeichnung> .
+<http://provenienz.gbv.de/thesaurus#extra-ausstattung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#portraet> .
+<http://provenienz.gbv.de/thesaurus#extra-ausstattung> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#extra-ausstattung> <http://www.w3.org/2004/02/skos/core#definition> "Zusammenfassende Bezeichnung f\u00FCr Illustrationen (z.B. ausgeschnittene Initialen, Abbildungen), die in das Exemplar eingeklebt oder eingeheftet worden sind und es so zu einem Unikat machen"@de .
+<http://provenienz.gbv.de/thesaurus#genealogische_notiz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#genealogische_notiz> <http://www.w3.org/2004/02/skos/core#prefLabel> "Genealogische Notiz"@de .
+<http://provenienz.gbv.de/thesaurus#genealogische_notiz> <http://www.w3.org/2004/02/skos/core#prefLabel> "genealogical notes"@en .
+<http://provenienz.gbv.de/thesaurus#genealogische_notiz> <http://www.w3.org/2004/02/skos/core#prefLabel> "notes g\u00E9n\u00E9alogiques"@fr .
+<http://provenienz.gbv.de/thesaurus#genealogische_notiz> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#genealogische_notiz> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#notiz> .
+<http://provenienz.gbv.de/thesaurus#genealogische_notiz> <http://www.w3.org/2004/02/skos/core#definition> "Informationen \u00FCber Herkunft und Verwandtschaftsverh\u00E4ltnisse (einzelne Personen und Familien), oft in tabellarischen \u00DCbersichten als Stammtafeln dargestellt"@de .
+<http://provenienz.gbv.de/thesaurus#grafisches_zeichen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#grafisches_zeichen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grafisches Zeichen"@de .
+<http://provenienz.gbv.de/thesaurus#grafisches_zeichen> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#grafisches_zeichen> <http://www.w3.org/2004/02/skos/core#definition> "Vom Vorbesitzer zur Kennzeichnung des Exemplars (nicht einzelner Textstellen) angebrachtes Zeichen aus grafischen Elementen, z.B. Dreieck"@de .
+<http://provenienz.gbv.de/thesaurus#handzeichnung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#handzeichnung> <http://www.w3.org/2004/02/skos/core#prefLabel> "Handzeichnung"@de .
+<http://provenienz.gbv.de/thesaurus#handzeichnung> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#handzeichnung> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#portraet> .
+<http://provenienz.gbv.de/thesaurus#handzeichnung> <http://www.w3.org/2004/02/skos/core#definition> "Karikatur, Strichzeichnung"@de .
+<http://provenienz.gbv.de/thesaurus#initiale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#initiale> <http://www.w3.org/2004/02/skos/core#prefLabel> "Initiale"@de .
+<http://provenienz.gbv.de/thesaurus#initiale> <http://www.w3.org/2004/02/skos/core#prefLabel> "initials"@en .
+<http://provenienz.gbv.de/thesaurus#initiale> <http://www.w3.org/2004/02/skos/core#prefLabel> "initiales"@fr .
+<http://provenienz.gbv.de/thesaurus#initiale> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#monogramm> .
+<http://provenienz.gbv.de/thesaurus#initiale> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#initiale> <http://www.w3.org/2004/02/skos/core#definition> "Anfangsbuchstabe/n eines Namens. Oft kombiniert mit Einband (bis 30.09.2014: Handschriftlicher Anfangsbuchstabe eines Namens)"@de .
+<http://provenienz.gbv.de/thesaurus#kaufdatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#kaufdatum> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kaufdatum"@de .
+<http://provenienz.gbv.de/thesaurus#kaufdatum> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#lesedatum> .
+<http://provenienz.gbv.de/thesaurus#kaufdatum> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#nummer> .
+<http://provenienz.gbv.de/thesaurus#kaufdatum> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#kaufdatum> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#datum> .
+<http://provenienz.gbv.de/thesaurus#kaufdatum> <http://www.w3.org/2004/02/skos/core#definition> "Datum, an dem ein Exemplar durch Kauf oder Tausch erworben worden ist"@de .
+<http://provenienz.gbv.de/thesaurus#lesedatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#lesedatum> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lesedatum"@de .
+<http://provenienz.gbv.de/thesaurus#lesedatum> <http://www.w3.org/2004/02/skos/core#prefLabel> "reading dates"@en .
+<http://provenienz.gbv.de/thesaurus#lesedatum> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#kaufdatum> .
+<http://provenienz.gbv.de/thesaurus#lesedatum> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#nummer> .
+<http://provenienz.gbv.de/thesaurus#lesedatum> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#lesedatum> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#datum> .
+<http://provenienz.gbv.de/thesaurus#lesedatum> <http://www.w3.org/2004/02/skos/core#definition> "Lese- oder Ausleihdaten des Vorbesitzers"@de .
+<http://provenienz.gbv.de/thesaurus#makulatur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#makulatur> <http://www.w3.org/2004/02/skos/core#prefLabel> "Makulatur"@de .
+<http://provenienz.gbv.de/thesaurus#makulatur> <http://www.w3.org/2004/02/skos/core#prefLabel> "spoilage"@en .
+<http://provenienz.gbv.de/thesaurus#makulatur> <http://www.w3.org/2004/02/skos/core#prefLabel> "fragments imprim\u00E9s"@fr .
+<http://provenienz.gbv.de/thesaurus#makulatur> <http://www.w3.org/2004/02/skos/core#altLabel> "fragments manuscrits"@fr .
+<http://provenienz.gbv.de/thesaurus#makulatur> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#einband> .
+<http://provenienz.gbv.de/thesaurus#makulatur> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#makulatur> <http://www.w3.org/2004/02/skos/core#definition> "Unbrauchbar gewordenes, bedrucktes oder beschriebenes Papier oder Pergament, das als Einbandmaterial verwendet wurde"@de .
+<http://provenienz.gbv.de/thesaurus#marginalie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#marginalie> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marginalie"@de .
+<http://provenienz.gbv.de/thesaurus#marginalie> <http://www.w3.org/2004/02/skos/core#prefLabel> "marginalia"@en .
+<http://provenienz.gbv.de/thesaurus#marginalie> <http://www.w3.org/2004/02/skos/core#prefLabel> "annotations marginales"@fr .
+<http://provenienz.gbv.de/thesaurus#marginalie> <http://www.w3.org/2004/02/skos/core#altLabel> "Annotation"@de .
+<http://provenienz.gbv.de/thesaurus#marginalie> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#merkzeichen> .
+<http://provenienz.gbv.de/thesaurus#marginalie> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#notiz> .
+<http://provenienz.gbv.de/thesaurus#marginalie> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#marginalie> <http://www.w3.org/2004/02/skos/core#definition> "Anmerkung (nicht nur Merkzeichen) am Rand einer Seite"@de .
+<http://provenienz.gbv.de/thesaurus#merkzeichen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#merkzeichen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Merkzeichen"@de .
+<http://provenienz.gbv.de/thesaurus#merkzeichen> <http://www.w3.org/2004/02/skos/core#prefLabel> "underscoring"@en .
+<http://provenienz.gbv.de/thesaurus#merkzeichen> <http://www.w3.org/2004/02/skos/core#altLabel> "Annotation"@de .
+<http://provenienz.gbv.de/thesaurus#merkzeichen> <http://www.w3.org/2004/02/skos/core#altLabel> "Anstreichung"@de .
+<http://provenienz.gbv.de/thesaurus#merkzeichen> <http://www.w3.org/2004/02/skos/core#altLabel> "Unterstreichung"@de .
+<http://provenienz.gbv.de/thesaurus#merkzeichen> <http://www.w3.org/2004/02/skos/core#altLabel> "fists underscoring"@en .
+<http://provenienz.gbv.de/thesaurus#merkzeichen> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#marginalie> .
+<http://provenienz.gbv.de/thesaurus#merkzeichen> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#notiz> .
+<http://provenienz.gbv.de/thesaurus#merkzeichen> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#merkzeichen> <http://www.w3.org/2004/02/skos/core#definition> "Zeichen, mit denen der Vorbesitzer Textstellen markiert hat, z.B. Unter- und Anstreichung, hinweisende Hand, Chiffre"@de .
+<http://provenienz.gbv.de/thesaurus#monogramm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#monogramm> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monogramm"@de .
+<http://provenienz.gbv.de/thesaurus#monogramm> <http://www.w3.org/2004/02/skos/core#prefLabel> "monograms"@en .
+<http://provenienz.gbv.de/thesaurus#monogramm> <http://www.w3.org/2004/02/skos/core#prefLabel> "monogramme"@fr .
+<http://provenienz.gbv.de/thesaurus#monogramm> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#initiale> .
+<http://provenienz.gbv.de/thesaurus#monogramm> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#monogramm> <http://www.w3.org/2004/02/skos/core#definition> "Namenszeichen aus k\u00FCnstlerisch gestalteten oder verschlungenen Buchstaben"@de .
+<http://provenienz.gbv.de/thesaurus#motto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#motto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motto"@de .
+<http://provenienz.gbv.de/thesaurus#motto> <http://www.w3.org/2004/02/skos/core#prefLabel> "mottoes"@en .
+<http://provenienz.gbv.de/thesaurus#motto> <http://www.w3.org/2004/02/skos/core#prefLabel> "devise"@fr .
+<http://provenienz.gbv.de/thesaurus#motto> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#motto> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#motto> <http://www.w3.org/2004/02/skos/core#definition> "Devise, Leitspruch, Sinnspruch"@de .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#prefLabel> "Notiz"@de .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#prefLabel> "inscriptions"@en .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#prefLabel> "inscriptions"@fr .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#altLabel> "Annotation"@de .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#altLabel> "notes"@fr .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#marginalie> .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#merkzeichen> .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#motto> .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#widmung> .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#genealogische_notiz> .
+<http://provenienz.gbv.de/thesaurus#notiz> <http://www.w3.org/2004/02/skos/core#definition> "Eintragung auf dem Vorsatzblatt oder eingeschossenen Bl\u00E4ttern, z.B. Inhaltsverzeichnis"@de .
+<http://provenienz.gbv.de/thesaurus#ns-raubgut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#ns-raubgut> <http://www.w3.org/2004/02/skos/core#prefLabel> "NS-Raubgut"@de .
+<http://provenienz.gbv.de/thesaurus#ns-raubgut> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nazi looted art"@en .
+<http://provenienz.gbv.de/thesaurus#ns-raubgut> <http://www.w3.org/2004/02/skos/core#prefLabel> "pillage nazi"@fr .
+<http://provenienz.gbv.de/thesaurus#ns-raubgut> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#beutegut> .
+<http://provenienz.gbv.de/thesaurus#ns-raubgut> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#restitution> .
+<http://provenienz.gbv.de/thesaurus#ns-raubgut> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#restitutionsexemplar> .
+<http://provenienz.gbv.de/thesaurus#ns-raubgut> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#ns-raubgut> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#enteignung> .
+<http://provenienz.gbv.de/thesaurus#ns-raubgut> <http://www.w3.org/2004/02/skos/core#definition> "NS-verfolgungsbedingt entzogenes Verm\u00F6gen"@de .
+<http://provenienz.gbv.de/thesaurus#nummer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#nummer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nummer"@de .
+<http://provenienz.gbv.de/thesaurus#nummer> <http://www.w3.org/2004/02/skos/core#prefLabel> "numbers"@en .
+<http://provenienz.gbv.de/thesaurus#nummer> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#datum> .
+<http://provenienz.gbv.de/thesaurus#nummer> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#kaufdatum> .
+<http://provenienz.gbv.de/thesaurus#nummer> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#lesedatum> .
+<http://provenienz.gbv.de/thesaurus#nummer> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#preis> .
+<http://provenienz.gbv.de/thesaurus#nummer> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#signatur> .
+<http://provenienz.gbv.de/thesaurus#nummer> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#nummer> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#zugangsnummer> .
+<http://provenienz.gbv.de/thesaurus#nummer> <http://www.w3.org/2004/02/skos/core#definition> "Ziffern, Nummern jeder Art, z.B. Zugangsnummer, Auktionsposten"@de .
+<http://provenienz.gbv.de/thesaurus#portraet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#portraet> <http://www.w3.org/2004/02/skos/core#prefLabel> "Portr\u00E4t"@de .
+<http://provenienz.gbv.de/thesaurus#portraet> <http://www.w3.org/2004/02/skos/core#prefLabel> "portrait"@en .
+<http://provenienz.gbv.de/thesaurus#portraet> <http://www.w3.org/2004/02/skos/core#prefLabel> "portrait"@fr .
+<http://provenienz.gbv.de/thesaurus#portraet> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#handzeichnung> .
+<http://provenienz.gbv.de/thesaurus#portraet> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#portraet> <http://www.w3.org/2004/02/skos/core#definition> "K\u00FCnstlerische Darstellung einer oder mehrerer Personen, z.B. Fotografie, Relief, Zeichnung"@de .
+<http://provenienz.gbv.de/thesaurus#preis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#preis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Preis"@de .
+<http://provenienz.gbv.de/thesaurus#preis> <http://www.w3.org/2004/02/skos/core#prefLabel> "prices"@en .
+<http://provenienz.gbv.de/thesaurus#preis> <http://www.w3.org/2004/02/skos/core#prefLabel> "prix du livre"@fr .
+<http://provenienz.gbv.de/thesaurus#preis> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#nummer> .
+<http://provenienz.gbv.de/thesaurus#preis> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#preis> <http://www.w3.org/2004/02/skos/core#definition> "Angaben zu Kaufpreis oder Bindekosten"@de .
+<http://provenienz.gbv.de/thesaurus#restitution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#restitution> <http://www.w3.org/2004/02/skos/core#prefLabel> "Restitution"@de .
+<http://provenienz.gbv.de/thesaurus#restitution> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#beutegut> .
+<http://provenienz.gbv.de/thesaurus#restitution> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#bodenreform> .
+<http://provenienz.gbv.de/thesaurus#restitution> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#ns-raubgut> .
+<http://provenienz.gbv.de/thesaurus#restitution> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#restitution> .
+<http://provenienz.gbv.de/thesaurus#restitution> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#restitution> <http://www.w3.org/2004/02/skos/core#definition> "Erstattung oder R\u00FCckgabe geraubter, enteigneter und zwangsverkaufter Kulturg\u00FCter"@de .
+<http://provenienz.gbv.de/thesaurus#restitutionsexemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#restitutionsexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Restitutionsexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#restitutionsexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "exemplaire de restitution"@fr .
+<http://provenienz.gbv.de/thesaurus#restitutionsexemplar> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#beutegut> .
+<http://provenienz.gbv.de/thesaurus#restitutionsexemplar> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#bodenreform> .
+<http://provenienz.gbv.de/thesaurus#restitutionsexemplar> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#ns-raubgut> .
+<http://provenienz.gbv.de/thesaurus#restitutionsexemplar> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#restitution> .
+<http://provenienz.gbv.de/thesaurus#restitutionsexemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#restitutionsexemplar> <http://www.w3.org/2004/02/skos/core#definition> "Buchexemplar, das im Zuge einer Restitution an den rechtm\u00E4\u00DFigen Eigent\u00FCmer zur\u00FCckgegeben worden ist"@de .
+<http://provenienz.gbv.de/thesaurus#rezensionsexemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#rezensionsexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rezensionsexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#rezensionsexemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#rezensionsexemplar> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar, das dem Vorbesitzer f\u00FCr eine Rezension zur Verf\u00FCgung gestellt worden ist und z.B. durch einen Stempel als Rezensionsexemplar gekennzeichnet worden ist"@de .
+<http://provenienz.gbv.de/thesaurus#saekularisationsgut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#saekularisationsgut> <http://www.w3.org/2004/02/skos/core#prefLabel> "S\u00E4kularisationsgut"@de .
+<http://provenienz.gbv.de/thesaurus#saekularisationsgut> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#saekularisationsgut> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#enteignung> .
+<http://provenienz.gbv.de/thesaurus#saekularisationsgut> <http://www.w3.org/2004/02/skos/core#definition> "Verm\u00F6gen aus der staatlichen Einziehung oder Nutzung kirchlicher Besitzt\u00FCmer"@de .
+<http://provenienz.gbv.de/thesaurus#siegel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#siegel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Siegel"@de .
+<http://provenienz.gbv.de/thesaurus#siegel> <http://www.w3.org/2004/02/skos/core#prefLabel> "seals"@en .
+<http://provenienz.gbv.de/thesaurus#siegel> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#siegel> <http://www.w3.org/2004/02/skos/core#definition> "Siegelabdruck jeder Art"@de .
+<http://provenienz.gbv.de/thesaurus#signatur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#signatur> <http://www.w3.org/2004/02/skos/core#prefLabel> "Signatur"@de .
+<http://provenienz.gbv.de/thesaurus#signatur> <http://www.w3.org/2004/02/skos/core#prefLabel> "shelf marks"@en .
+<http://provenienz.gbv.de/thesaurus#signatur> <http://www.w3.org/2004/02/skos/core#altLabel> "Standortnummer"@de .
+<http://provenienz.gbv.de/thesaurus#signatur> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#bibliotheksexemplar> .
+<http://provenienz.gbv.de/thesaurus#signatur> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#nummer> .
+<http://provenienz.gbv.de/thesaurus#signatur> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#zugangsnummer> .
+<http://provenienz.gbv.de/thesaurus#signatur> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#signatur> <http://www.w3.org/2004/02/skos/core#definition> "Alte Standortnummer des Exemplars in der Bibliothek des Vorbesitzers"@de .
+<http://provenienz.gbv.de/thesaurus#stempel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#stempel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stempel"@de .
+<http://provenienz.gbv.de/thesaurus#stempel> <http://www.w3.org/2004/02/skos/core#prefLabel> "stamps"@en .
+<http://provenienz.gbv.de/thesaurus#stempel> <http://www.w3.org/2004/02/skos/core#prefLabel> "cachets"@fr .
+<http://provenienz.gbv.de/thesaurus#stempel> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#dublettenstempel> .
+<http://provenienz.gbv.de/thesaurus#stempel> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchbinder> .
+<http://provenienz.gbv.de/thesaurus#stempel> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchbinderin> .
+<http://provenienz.gbv.de/thesaurus#stempel> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchhaendler> .
+<http://provenienz.gbv.de/thesaurus#stempel> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin> .
+<http://provenienz.gbv.de/thesaurus#stempel> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#stempel> <http://www.w3.org/2004/02/skos/core#definition> "Stempelabdruck jeder Art; Firmenstempel, Einbandstempel"@de .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinder> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stempel: Buchbinder"@de .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinder> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchbinderin> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinder> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchbinder> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinder> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinder> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinder> <http://www.w3.org/2004/02/skos/core#definition> "Stempelabdruck mit Firmennamen, z.B. auf dem Einband oder der Innenseite des Buchdeckels"@de .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinderin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinderin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stempel: Buchbinderin"@de .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinderin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchbinder> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinderin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchbinder> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinderin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchbinderin> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinderin> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchbinderin> <http://www.w3.org/2004/02/skos/core#definition> "Stempelabdruck mit Firmennamen, z.B. auf dem Einband oder der Innenseite des Buchdeckels"@de .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stempel: Buchh\u00E4ndler"@de .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendler> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendler> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendler> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendler> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendler> <http://www.w3.org/2004/02/skos/core#definition> "Stempelabdruck mit Firmennamen, z.B. auf dem Titelblatt oder der Innenseite des Buchdeckels"@de .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stempel: Buchh\u00E4ndlerin"@de .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#stempel_buchhaendler> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchhaendler> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin> <http://www.w3.org/2004/02/skos/core#definition> "Stempelabdruck mit Firmennamen, z.B. auf dem Titelblatt oder der Innenseite des Buchdeckels"@de .
+<http://provenienz.gbv.de/thesaurus#tauschexemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#tauschexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tauschexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#tauschexemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#tauschexemplar> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar, das von einer Institution durch Tausch erworben worden ist"@de .
+<http://provenienz.gbv.de/thesaurus#tektur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#tektur> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tektur"@de .
+<http://provenienz.gbv.de/thesaurus#tektur> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#tilgung> .
+<http://provenienz.gbv.de/thesaurus#tektur> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#zensurexemplar> .
+<http://provenienz.gbv.de/thesaurus#tektur> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#tektur> <http://www.w3.org/2004/02/skos/core#definition> "Schw\u00E4rzung, \u00DCberklebung"@de .
+<http://provenienz.gbv.de/thesaurus#tilgung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#tilgung> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tilgung"@de .
+<http://provenienz.gbv.de/thesaurus#tilgung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#tektur> .
+<http://provenienz.gbv.de/thesaurus#tilgung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#zensurexemplar> .
+<http://provenienz.gbv.de/thesaurus#tilgung> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#tilgung> <http://www.w3.org/2004/02/skos/core#definition> "Fehlstelle oder herausgel\u00F6stes Blatt, die auf die Provenienz hinweisen"@de .
+<http://provenienz.gbv.de/thesaurus#wappen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#wappen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wappen"@de .
+<http://provenienz.gbv.de/thesaurus#wappen> <http://www.w3.org/2004/02/skos/core#prefLabel> "coats of arms"@en .
+<http://provenienz.gbv.de/thesaurus#wappen> <http://www.w3.org/2004/02/skos/core#prefLabel> "armes"@fr .
+<http://provenienz.gbv.de/thesaurus#wappen> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#wappen> <http://www.w3.org/2004/02/skos/core#definition> "Wappen jeder Art; oft kombiniert mit Einband, Exlibris, Stempel"@de .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#prefLabel> "Widmung"@de .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#prefLabel> "presentation inscriptions"@en .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#prefLabel> "ex-dono manuscrit"@fr .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#altLabel> "Dedikation"@de .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#altLabel> "presentation insertions"@en .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#altLabel> "presentation leaves"@en .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#altLabel> "presentation bindings"@en .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_donator> .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_donatorin> .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#widmung_autor> .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#narrower> <http://provenienz.gbv.de/thesaurus#widmung_autorin> .
+<http://provenienz.gbv.de/thesaurus#widmung> <http://www.w3.org/2004/02/skos/core#definition> "Handschriftliche oder individuelle gedruckte Zueignung jeder Art, z.B. auf dem Schmutztitel oder einer Einlage; oft kombiniert mit Autogramm, Initiale, Datum"@de .
+<http://provenienz.gbv.de/thesaurus#widmung_autor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#widmung_autor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Widmung: Autor"@de .
+<http://provenienz.gbv.de/thesaurus#widmung_autor> <http://www.w3.org/2004/02/skos/core#prefLabel> "authors' presentation inscriptions"@en .
+<http://provenienz.gbv.de/thesaurus#widmung_autor> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#widmung_autorin> .
+<http://provenienz.gbv.de/thesaurus#widmung_autor> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> .
+<http://provenienz.gbv.de/thesaurus#widmung_autor> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> .
+<http://provenienz.gbv.de/thesaurus#widmung_autor> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#widmung_autor> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#widmung> .
+<http://provenienz.gbv.de/thesaurus#widmung_autor> <http://www.w3.org/2004/02/skos/core#definition> "Handschriftliche oder individuelle gedruckte Zueignung des Autors, z.B. auf dem Schmutztitel oder einer Einlage; oft kombiniert mit Autogramm, Initiale, Datum"@de .
+<http://provenienz.gbv.de/thesaurus#widmung_autorin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#widmung_autorin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Widmung: Autorin"@de .
+<http://provenienz.gbv.de/thesaurus#widmung_autorin> <http://www.w3.org/2004/02/skos/core#prefLabel> "authors' presentation inscriptions"@en .
+<http://provenienz.gbv.de/thesaurus#widmung_autorin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#widmung_autor> .
+<http://provenienz.gbv.de/thesaurus#widmung_autorin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> .
+<http://provenienz.gbv.de/thesaurus#widmung_autorin> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> .
+<http://provenienz.gbv.de/thesaurus#widmung_autorin> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#widmung_autorin> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#widmung> .
+<http://provenienz.gbv.de/thesaurus#widmung_autorin> <http://www.w3.org/2004/02/skos/core#definition> "Handschriftliche oder individuelle gedruckte Zueignung der Autorin, z.B. auf dem Schmutztitel oder einer Einlage; oft kombiniert mit Autogramm, Initiale, Datum"@de .
+<http://provenienz.gbv.de/thesaurus#zensur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#zensur> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zensur"@de .
+<http://provenienz.gbv.de/thesaurus#zensur> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#zensurexemplar> .
+<http://provenienz.gbv.de/thesaurus#zensur> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#zensur> <http://www.w3.org/2004/02/skos/core#definition> "Kontrolle des Publikationsprozesses durch staatliche bzw. kirchliche Zensurorgane. Oft kombiniert mit Stempel"@de .
+<http://provenienz.gbv.de/thesaurus#zensurexemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#zensurexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zensurexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#zensurexemplar> <http://www.w3.org/2004/02/skos/core#prefLabel> "marques de censure"@fr .
+<http://provenienz.gbv.de/thesaurus#zensurexemplar> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#tilgung> .
+<http://provenienz.gbv.de/thesaurus#zensurexemplar> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#tektur> .
+<http://provenienz.gbv.de/thesaurus#zensurexemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#zensurexemplar> <http://www.w3.org/2004/02/skos/core#definition> "Exemplar, das aufgrund von Zensurvorschriften nur eingeschr\u00E4nkt oder nicht f\u00FCr die Benutzung zur Verf\u00FCgung stand"@de .
+<http://provenienz.gbv.de/thesaurus#zugangsnummer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://provenienz.gbv.de/thesaurus#zugangsnummer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zugangsnummer"@de .
+<http://provenienz.gbv.de/thesaurus#zugangsnummer> <http://www.w3.org/2004/02/skos/core#prefLabel> "accession numbers"@en .
+<http://provenienz.gbv.de/thesaurus#zugangsnummer> <http://www.w3.org/2004/02/skos/core#prefLabel> "num\u00E9ro d'inventaire"@fr .
+<http://provenienz.gbv.de/thesaurus#zugangsnummer> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://provenienz.gbv.de/thesaurus#bibliotheksexemplar> .
+<http://provenienz.gbv.de/thesaurus#zugangsnummer> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#zugangsnummer> <http://www.w3.org/2004/02/skos/core#broader> <http://provenienz.gbv.de/thesaurus#nummer> .
+<http://provenienz.gbv.de/thesaurus#zugangsnummer> <http://www.w3.org/2004/02/skos/core#definition> "Im Zusammenhang mit der Inventarisierung vergebene Nummer der im Rechnungsjahr erworbenen Medien. Die Nummer wird im Zugangsbuch einer Bibliothek und gelegentlich auch im Buchexemplar eingetragen"@de .
+<http://provenienz.gbv.de/thesaurus#dedikationsexemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<http://provenienz.gbv.de/thesaurus#dedikationsexemplar> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Dedikationsexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#dedikationsexemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#dedikationsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#widmung> .
+<http://provenienz.gbv.de/thesaurus#dedikationsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#widmung_autor> .
+<http://provenienz.gbv.de/thesaurus#dedikationsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#widmung_autorin> .
+<http://provenienz.gbv.de/thesaurus#dedikationsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> .
+<http://provenienz.gbv.de/thesaurus#dedikationsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> .
+<http://provenienz.gbv.de/thesaurus#dedikationsexemplar> <http://www.w3.org/2004/02/skos/core#note> "Kein Deskriptor, benutze Kombination"@de .
+<http://provenienz.gbv.de/thesaurus#super-exlibris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<http://provenienz.gbv.de/thesaurus#super-exlibris> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Super-Exlibris"@de .
+<http://provenienz.gbv.de/thesaurus#super-exlibris> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Supralibros"@de .
+<http://provenienz.gbv.de/thesaurus#super-exlibris> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#super-exlibris> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#einband> .
+<http://provenienz.gbv.de/thesaurus#super-exlibris> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#monogramm> .
+<http://provenienz.gbv.de/thesaurus#super-exlibris> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#stempel> .
+<http://provenienz.gbv.de/thesaurus#super-exlibris> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#wappen> .
+<http://provenienz.gbv.de/thesaurus#super-exlibris> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#datum> .
+<http://provenienz.gbv.de/thesaurus#super-exlibris> <http://www.w3.org/2004/02/skos/core#note> "Kein Deskriptor, benutze Kombination"@de .
+<http://provenienz.gbv.de/thesaurus#wappeneinband> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<http://provenienz.gbv.de/thesaurus#wappeneinband> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Wappeneinband"@de .
+<http://provenienz.gbv.de/thesaurus#wappeneinband> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Wappenexlibris"@de .
+<http://provenienz.gbv.de/thesaurus#wappeneinband> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Wappenstempel"@de .
+<http://provenienz.gbv.de/thesaurus#wappeneinband> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#wappeneinband> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#einband> .
+<http://provenienz.gbv.de/thesaurus#wappeneinband> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#wappen> .
+<http://provenienz.gbv.de/thesaurus#wappeneinband> <http://www.w3.org/2004/02/skos/core#note> "Kein Deskriptor, benutze Kombination"@de .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Widmungsexemplar"@de .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "presentation copies"@en .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://provenienz.gbv.de/thesaurus#> .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#exemplar_donator> .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#exemplar_donatorin> .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#widmung> .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#widmung_autor> .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#widmung_autorin> .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger> .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/2004/02/skos/core#member> <http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin> .
+<http://provenienz.gbv.de/thesaurus#widmungsexemplar> <http://www.w3.org/2004/02/skos/core#note> "Kein Deskriptor, benutze Kombination"@de .

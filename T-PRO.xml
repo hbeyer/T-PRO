@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<skos:ConceptScheme rdf:about="http://provenienz.gbv.de/thesaurus#">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003</dcterms:created>
+	<dcterms:creator xml:lang="de">Herzogin Anna Amalia Bibliothek Weimar</dcterms:creator>
+	<dcterms:contributor xml:lang="de">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</dcterms:contributor>
+	<dcterms:contributor xml:lang="de">dbv-Kommission Provenienzforschung und Provenienzerschließung</dcterms:contributor>
+	<skos:prefLabel xml:lang="de">T-PRO Thesaurus der Provenienzbegriffe</skos:prefLabel>
+	<skos:note xml:lang="de">Provenienzbegriffe bezeichnen Merkmale von Spuren, die Vorbesitzer (Personen und Institutionen) in und auf Büchern, Handschriften oder anderen Artefakten hinterlassen haben. Diese Merkmale kennzeichnen Besitz, Lesespuren oder Zensurabsichten. Der Thesaurus der Provenienzbegriffe dient zur Dokumentation und Recherche dieser Merkmale</skos:note>
+</skos:ConceptScheme>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#auffuehrungsexemplar">
+	<skos:prefLabel xml:lang="de">Aufführungsexemplar</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar, das für eine Aufführung verwendet wurde, z.B. Rollen-, Regie- oder Soufflierbuch</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#auktionsexemplar">
+	<skos:prefLabel xml:lang="de">Auktionsexemplar</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">auction copies</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar, das auf einer Auktion versteigert worden ist. Quellen sind z.B. aktuelle und historische Erwerbungsunterlagen, Auktionskataloge, Einlagen. Oft kombiniert mit Einlage: Zettel, Nummer, Preis, Kaufdatum</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#aussonderungsexemplar">
+	<skos:prefLabel xml:lang="de">Aussonderungsexemplar</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">withdrawn copies</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#bibliotheksexemplar"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#dublettenstempel"/>
+	<skos:definition xml:lang="de">Exemplar, das aus dem Bestand einer Institution ausgesondert worden ist</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#autogramm">
+	<skos:prefLabel xml:lang="de">Autogramm</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">autographs</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">signature</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Namenszug</skos:altLabel>
+	<skos:altLabel xml:lang="de">Unterschrift</skos:altLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Eigenhändiger Namenszug</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#belegexemplar">
+	<skos:prefLabel xml:lang="de">Belegexemplar</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar, das dem Autor oder einer Institution aufgrund vertraglicher Vereinbarungen als Beleg für eine Publikation zur Verfügung gestellt worden ist.</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#beutegut">
+	<skos:prefLabel xml:lang="de">Beutegut</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">loot</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">livre-trophée</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#ns-raubgut"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#restitution"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#restitutionsexemplar"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#enteignung"/>
+	<skos:definition xml:lang="de">Kriegsbedingt verbrachtes Vermögen</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#bibliotheksexemplar">
+	<skos:prefLabel xml:lang="de">Bibliotheksexemplar</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">library copies</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#signatur"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#zugangsnummer"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar aus dem Besitz von Institutionen (im Gegensatz zu Privatsammlungen), z.B. Archiv, Gesellschaft, Schule. Oft kombiniert mit Nummer, Signatur, Stempel</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#bodenreform">
+	<skos:prefLabel xml:lang="de">Bodenreform</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">land reform</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">réforme agraire</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#restitution"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#restitutionsexemplar"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#enteignung"/>
+	<skos:definition xml:lang="de">Der Begriff Bodenreform bezeichnet eine Änderung der Eigentums- oder Nutzungsrechte an Grund, Boden und Ausstattung, z.B. Bodenreform in Deutschland nach Kriegsende 1945 in der Sowjetischen Besatzungszone (SBZ)</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#buchschnitt">
+	<skos:prefLabel xml:lang="de">Buchschnitt</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">edge-marks</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#einband"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Merkmale auf dem Buchschnitt, die auf die Provenienz hinweisen, z.B. Notiz, Signatur, Stempel</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#datum">
+	<skos:prefLabel xml:lang="de">Datum</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">dates</skos:prefLabel>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#kaufdatum"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#lesedatum"/>
+	<skos:definition xml:lang="de">Zeitangabe jeder Art</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#dublettenstempel">
+	<skos:prefLabel xml:lang="de">Dublettenstempel</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">duplicate stamps</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#aussonderungsexemplar"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#stempel"/>
+	<skos:definition xml:lang="de">Stempelabdruck, der die Aussonderung von Zweit- und Staffelexemplaren kennzeichnet</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#durchschossenes_exemplar">
+	<skos:prefLabel xml:lang="de">Durchschossenes Exemplar</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">interleaved copy</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">exemplaire interfolié</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#extra-ausstattung"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Buchexemplar, das zwischen den einzelnen bedruckten Blättern mit leeren Blättern versehen ist</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#einband">
+	<skos:prefLabel xml:lang="de">Einband</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">bindings</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">reliures</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#buchschnitt"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#makulatur"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Einband mit Merkmalen auf der Außenseite der Buchdeckel und des Buchrückens, die auf die Provenienz hinweisen, z.B. Initiale, Monogramm, Signatur, Wappen</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#einlage">
+	<skos:prefLabel xml:lang="de">Einlage</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">insertions</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#einlage_brief"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#einlage_fotografie"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#einlage_lesezeichen"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#einlage_zettel"/>
+	<skos:definition xml:lang="de">Einlage oder Beilage jeder Art, die Hinweise auf den Vorbesitzer gibt</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#einlage_brief">
+	<skos:prefLabel xml:lang="de">Einlage: Brief</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Ansichtskarte</skos:altLabel>
+	<skos:altLabel xml:lang="de">Postkarte</skos:altLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#einlage_zettel"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#einlage"/>
+	<skos:definition xml:lang="de">Schriftliche Mitteilung an einen bestimmten Adressaten; oft mit Autogramm oder Initialen und Datum versehen</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#einlage_fotografie">
+	<skos:prefLabel xml:lang="de">Einlage: Fotografie</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#einlage"/>
+	<skos:definition xml:lang="de">Fotoabzug auf Papier; nicht benutzt für Reproduktionen in Zeitungen oder auf Ansichtskarten</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#einlage_haar">
+	<skos:prefLabel xml:lang="de">Einlage: Haar</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#einlage"/>
+	<skos:definition xml:lang="de">Haar/e, Haarlocke</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#einlage_lesezeichen">
+	<skos:prefLabel xml:lang="de">Einlage: Lesezeichen</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#einlage"/>
+	<skos:definition xml:lang="de">Künstlerisch oder als Werbeträger gestaltetes Lesezeichen; nicht benutzt für Papierschnipsel oder Eselsohren</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#einlage_pflanze">
+	<skos:prefLabel xml:lang="de">Einlage: Pflanze</skos:prefLabel>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#einlage"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Pflanze oder Pflanzenteile</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#einlage_zettel">
+	<skos:prefLabel xml:lang="de">Einlage: Zettel</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#einlage"/>
+	<skos:definition xml:lang="de">Notizzettel, bis 30.09.2014: auch für Zeitungsauschnitt</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#einlage_zettel_zeitungsausschnitt">
+	<skos:prefLabel xml:lang="de">Einlage: Zettel: Zeitungsausschnitt</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#einlage_zettel"/>
+	<skos:definition xml:lang="de">Ausschnitt (auch Ausriss oder Einzelseite) aus Zeitung oder Zeitschrift</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#emblem">
+	<skos:prefLabel xml:lang="de">Emblem</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">devices</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">emblème</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Sinnbild</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#enteignung">
+	<skos:prefLabel xml:lang="de">Enteignung</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">expropriation</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">expropriation</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#beutegut"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#bodenreform"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#ns-raubgut"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#saekularisationsgut"/>
+	<skos:definition xml:lang="de">Als Enteignung wird der Entzug des Eigentums an einer beweglichen oder unbeweglichen Sache durch einen hoheitlichen Akt bezeichnet</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#etikett">
+	<skos:prefLabel xml:lang="de">Etikett</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">labels</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">vignettes</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchbinder"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchbinderin"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchhaendler"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin"/>
+	<skos:definition xml:lang="de">Anhänger, Aufkleber jeder Art</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#etikett_buchbinder">
+	<skos:prefLabel xml:lang="de">Etikett: Buchbinder</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">binders' tickets</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchbinderin"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchbinder"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchbinderin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#etikett"/>
+	<skos:definition xml:lang="de">Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Nummer, Preis und Datum</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#etikett_buchbinderin">
+	<skos:prefLabel xml:lang="de">Etikett: Buchbinderin</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">binders' tickets</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchbinder"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchbinder"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchbinderin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#etikett"/>
+	<skos:definition xml:lang="de">Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Nummer, Preis und Datum</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#etikett_buchhaendler">
+	<skos:prefLabel xml:lang="de">Etikett: Buchhändler</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">booksellers' labels</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchhaendler"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#etikett"/>
+	<skos:definition xml:lang="de">Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Preis und Datum</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin">
+	<skos:prefLabel xml:lang="de">Etikett: Buchhändlerin</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">booksellers' labels</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchhaendler"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchhaendler"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#etikett"/>
+	<skos:definition xml:lang="de">Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Preis und Datum</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#exemplar_autor">
+	<skos:prefLabel xml:lang="de">Exemplar: Autor</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">authors' copies</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">envoi de l'auteur</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Autorenexemplar</skos:altLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_autorin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar, das vom Autor benutzt worden ist (z.B. für Korrekturen) oder das Teil seiner Privatbibliothek war; oft kombiniert mit Autogramm, Initiale, Datum. Der Begriff wird nicht für Exemplare gebraucht, die vom Autor einfach nur gewidmet oder verschenkt worden sind</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#exemplar_autorin">
+	<skos:prefLabel xml:lang="de">Exemplar: Autorin</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">authors' copies</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">envoi de l'auteur</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Autorenexemplar</skos:altLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_autor"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar, das von der Autorin benutzt worden ist (z.B. für Korrekturen) oder das Teil seiner Privatbibliothek war; oft kombiniert mit Autogramm, Initiale, Datum. Der Begriff wird nicht für Exemplare gebraucht, die von der Autorin einfach nur gewidmet oder verschenkt worden sind</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#exemplar_donator">
+	<skos:prefLabel xml:lang="de">Exemplar: Donator</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">donors' copies</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">ex-dono imprimé</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">ex-legato imprimé</skos:altLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_donatorin"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#belegexemplar"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#tauschexemplar"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#widmung"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar, das der Vorbesitzer (Donator) verschenkt, gespendet oder gestiftet hat; nicht verwendet für Absender von Beleg- und Tauschexemplaren.</skos:definition>
+	<skos:note xml:lang="de">Institutionen werden als "Donator" bezeichnet</skos:note>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#exemplar_donatorin">
+	<skos:prefLabel xml:lang="de">Exemplar: Donatorin</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">donors' copies</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">ex-dono imprimé</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">ex-legato imprimé</skos:altLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_donator"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#belegexemplar"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#tauschexemplar"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#widmung"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar, das die Vorbesitzerin (Donatorin) verschenkt, gespendet oder gestiftet hat; nicht verwendet für Absenderinnen von Beleg- und Tauschexemplaren</skos:definition>
+	<skos:note xml:lang="de">Institutionen werden als "Donator" bezeichnet</skos:note>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger">
+	<skos:prefLabel xml:lang="de">Exemplar: Widmungsempfänger</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">dedicatees' copies</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_donator"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_donatorin"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#widmung"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autor"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autorin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar der Person oder Institution, der das Exemplar gewidmet worden ist</skos:definition>
+	<skos:note xml:lang="de">Institutionen werden als "-empfänger" bezeichnet</skos:note>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin">
+	<skos:prefLabel xml:lang="de">Exemplar: Widmungsempfängerin</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">dedicatees' copies</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_donator"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_donatorin"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#widmung"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autor"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autorin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar der Person, der das Exemplar gewidmet worden ist</skos:definition>
+	<skos:note xml:lang="de">Institutionen werden als "-empfänger" bezeichnet</skos:note>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#exlibris">
+	<skos:prefLabel xml:lang="de">Exlibris</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">bookplates</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">ex-libris</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Auf der Innenseite des vorderen Buchdeckels aufgeklebter Zettel oder aufgedruckter Stempel; oft kombiniert mit Autogramm, Emblem, Initiale, Monogramm, Motto, Wappen</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#extra-ausstattung">
+	<skos:prefLabel xml:lang="de">Extra-Ausstattung</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">extra-illustrated copies</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#durchschossenes_exemplar"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#handzeichnung"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#portraet"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Zusammenfassende Bezeichnung für Illustrationen (z.B. ausgeschnittene Initialen, Abbildungen), die in das Exemplar eingeklebt oder eingeheftet worden sind und es so zu einem Unikat machen</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#genealogische_notiz">
+	<skos:prefLabel xml:lang="de">Genealogische Notiz</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">genealogical notes</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">notes généalogiques</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#notiz"/>
+	<skos:definition xml:lang="de">Informationen über Herkunft und Verwandtschaftsverhältnisse (einzelne Personen und Familien), oft in tabellarischen Übersichten als Stammtafeln dargestellt</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#grafisches_zeichen">
+	<skos:prefLabel xml:lang="de">Grafisches Zeichen</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Vom Vorbesitzer zur Kennzeichnung des Exemplars (nicht einzelner Textstellen) angebrachtes Zeichen aus grafischen Elementen, z.B. Dreieck</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#handzeichnung">
+	<skos:prefLabel xml:lang="de">Handzeichnung</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#portraet"/>
+	<skos:definition xml:lang="de">Karikatur, Strichzeichnung</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#initiale">
+	<skos:prefLabel xml:lang="de">Initiale</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">initials</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">initiales</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#monogramm"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Anfangsbuchstabe/n eines Namens. Oft kombiniert mit Einband (bis 30.09.2014: Handschriftlicher Anfangsbuchstabe eines Namens)</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#kaufdatum">
+	<skos:prefLabel xml:lang="de">Kaufdatum</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#lesedatum"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#nummer"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#datum"/>
+	<skos:definition xml:lang="de">Datum, an dem ein Exemplar durch Kauf oder Tausch erworben worden ist</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#lesedatum">
+	<skos:prefLabel xml:lang="de">Lesedatum</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">reading dates</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#kaufdatum"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#nummer"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#datum"/>
+	<skos:definition xml:lang="de">Lese- oder Ausleihdaten des Vorbesitzers</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#makulatur">
+	<skos:prefLabel xml:lang="de">Makulatur</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">spoilage</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">fragments imprimés</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">fragments manuscrits</skos:altLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#einband"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Unbrauchbar gewordenes, bedrucktes oder beschriebenes Papier oder Pergament, das als Einbandmaterial verwendet wurde</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#marginalie">
+	<skos:prefLabel xml:lang="de">Marginalie</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">marginalia</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">annotations marginales</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Annotation</skos:altLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#merkzeichen"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#notiz"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Anmerkung (nicht nur Merkzeichen) am Rand einer Seite</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#merkzeichen">
+	<skos:prefLabel xml:lang="de">Merkzeichen</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Annotation</skos:altLabel>
+	<skos:altLabel xml:lang="de">Anstreichung</skos:altLabel>
+	<skos:altLabel xml:lang="de">Unterstreichung</skos:altLabel>
+	<skos:prefLabel xml:lang="en">underscoring</skos:prefLabel>
+	<skos:altLabel xml:lang="en">fists underscoring</skos:altLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#marginalie"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#notiz"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Zeichen, mit denen der Vorbesitzer Textstellen markiert hat, z.B. Unter- und Anstreichung, hinweisende Hand, Chiffre</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#monogramm">
+	<skos:prefLabel xml:lang="de">Monogramm</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">monograms</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">monogramme</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#initiale"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Namenszeichen aus künstlerisch gestalteten oder verschlungenen Buchstaben</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#motto">
+	<skos:prefLabel xml:lang="de">Motto</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">mottoes</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">devise</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Devise, Leitspruch, Sinnspruch</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#notiz">
+	<skos:prefLabel xml:lang="de">Notiz</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Annotation</skos:altLabel>
+	<skos:prefLabel xml:lang="en">inscriptions</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">inscriptions</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">notes</skos:altLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#marginalie"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#merkzeichen"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#motto"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#widmung"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#genealogische_notiz"/>
+	<skos:definition xml:lang="de">Eintragung auf dem Vorsatzblatt oder eingeschossenen Blättern, z.B. Inhaltsverzeichnis</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#ns-raubgut">
+	<skos:prefLabel xml:lang="de">NS-Raubgut</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Nazi looted art</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">pillage nazi</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#beutegut"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#restitution"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#restitutionsexemplar"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#enteignung"/>
+	<skos:definition xml:lang="de">NS-verfolgungsbedingt entzogenes Vermögen</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#nummer">
+	<skos:prefLabel xml:lang="de">Nummer</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">numbers</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#datum"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#kaufdatum"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#lesedatum"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#preis"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#signatur"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#zugangsnummer"/>
+	<skos:definition xml:lang="de">Ziffern, Nummern jeder Art, z.B. Zugangsnummer, Auktionsposten</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#portraet">
+	<skos:prefLabel xml:lang="de">Porträt</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">portrait</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">portrait</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#handzeichnung"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Künstlerische Darstellung einer oder mehrerer Personen, z.B. Fotografie, Relief, Zeichnung</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#preis">
+	<skos:prefLabel xml:lang="de">Preis</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">prices</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">prix du livre</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#nummer"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Angaben zu Kaufpreis oder Bindekosten</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#restitution">
+	<skos:prefLabel xml:lang="de">Restitution</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#beutegut"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#bodenreform"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#ns-raubgut"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#restitution"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Erstattung oder Rückgabe geraubter, enteigneter und zwangsverkaufter Kulturgüter</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#restitutionsexemplar">
+	<skos:prefLabel xml:lang="de">Restitutionsexemplar</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">exemplaire de restitution</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#beutegut"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#bodenreform"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#ns-raubgut"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#restitution"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Buchexemplar, das im Zuge einer Restitution an den rechtmäßigen Eigentümer zurückgegeben worden ist</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#rezensionsexemplar">
+	<skos:prefLabel xml:lang="de">Rezensionsexemplar</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar, das dem Vorbesitzer für eine Rezension zur Verfügung gestellt worden ist und z.B. durch einen Stempel als Rezensionsexemplar gekennzeichnet worden ist</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#saekularisationsgut">
+	<skos:prefLabel xml:lang="de">Säkularisationsgut</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#enteignung"/>
+	<skos:definition xml:lang="de">Vermögen aus der staatlichen Einziehung oder Nutzung kirchlicher Besitztümer</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#siegel">
+	<skos:prefLabel xml:lang="de">Siegel</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">seals</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Siegelabdruck jeder Art</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#signatur">
+	<skos:prefLabel xml:lang="de">Signatur</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Standortnummer</skos:altLabel>
+	<skos:prefLabel xml:lang="en">shelf marks</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#bibliotheksexemplar"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#nummer"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#zugangsnummer"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Alte Standortnummer des Exemplars in der Bibliothek des Vorbesitzers</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#stempel">
+	<skos:prefLabel xml:lang="de">Stempel</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">stamps</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">cachets</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#dublettenstempel"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchbinder"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchbinderin"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchhaendler"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Stempelabdruck jeder Art; Firmenstempel, Einbandstempel</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#stempel_buchbinder">
+	<skos:prefLabel xml:lang="de">Stempel: Buchbinder</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchbinderin"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchbinder"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchbinderin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Stempelabdruck mit Firmennamen, z.B. auf dem Einband oder der Innenseite des Buchdeckels</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#stempel_buchbinderin">
+	<skos:prefLabel xml:lang="de">Stempel: Buchbinderin</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchbinder"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchbinder"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchbinderin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Stempelabdruck mit Firmennamen, z.B. auf dem Einband oder der Innenseite des Buchdeckels</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#stempel_buchhaendler">
+	<skos:prefLabel xml:lang="de">Stempel: Buchhändler</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchhaendler"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Stempelabdruck mit Firmennamen, z.B. auf dem Titelblatt oder der Innenseite des Buchdeckels</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#stempel_buchhaendlerin">
+	<skos:prefLabel xml:lang="de">Stempel: Buchhändlerin</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#stempel_buchhaendler"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchhaendler"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#etikett_buchhaendlerin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Stempelabdruck mit Firmennamen, z.B. auf dem Titelblatt oder der Innenseite des Buchdeckels</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#tauschexemplar">
+	<skos:prefLabel xml:lang="de">Tauschexemplar</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar, das von einer Institution durch Tausch erworben worden ist</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#tektur">
+	<skos:prefLabel xml:lang="de">Tektur</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#tilgung"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#zensurexemplar"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Schwärzung, Überklebung</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#tilgung">
+	<skos:prefLabel xml:lang="de">Tilgung</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#tektur"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#zensurexemplar"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Fehlstelle oder herausgelöstes Blatt, die auf die Provenienz hinweisen</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#wappen">
+	<skos:prefLabel xml:lang="de">Wappen</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">coats of arms</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">armes</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Wappen jeder Art; oft kombiniert mit Einband, Exlibris, Stempel</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#widmung">
+	<skos:prefLabel xml:lang="de">Widmung</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Dedikation</skos:altLabel>
+	<skos:prefLabel xml:lang="en">presentation inscriptions</skos:prefLabel>
+	<skos:altLabel xml:lang="en">presentation insertions</skos:altLabel>
+	<skos:altLabel xml:lang="en">presentation leaves</skos:altLabel>
+	<skos:altLabel xml:lang="en">presentation bindings</skos:altLabel>
+	<skos:prefLabel xml:lang="fr">ex-dono manuscrit</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_donator"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_donatorin"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autor"/>
+	<skos:narrower rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autorin"/>
+	<skos:definition xml:lang="de">Handschriftliche oder individuelle gedruckte Zueignung jeder Art, z.B. auf dem Schmutztitel oder einer Einlage; oft kombiniert mit Autogramm, Initiale, Datum</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#widmung_autor">
+	<skos:prefLabel xml:lang="de">Widmung: Autor</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">authors' presentation inscriptions</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autorin"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#widmung"/>
+	<skos:definition xml:lang="de">Handschriftliche oder individuelle gedruckte Zueignung des Autors, z.B. auf dem Schmutztitel oder einer Einlage; oft kombiniert mit Autogramm, Initiale, Datum</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#widmung_autorin">
+	<skos:prefLabel xml:lang="de">Widmung: Autorin</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">authors' presentation inscriptions</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autor"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#widmung"/>
+	<skos:definition xml:lang="de">Handschriftliche oder individuelle gedruckte Zueignung der Autorin, z.B. auf dem Schmutztitel oder einer Einlage; oft kombiniert mit Autogramm, Initiale, Datum</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#zensur">
+	<skos:prefLabel xml:lang="de">Zensur</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#zensurexemplar"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Kontrolle des Publikationsprozesses durch staatliche bzw. kirchliche Zensurorgane. Oft kombiniert mit Stempel</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#zensurexemplar">
+	<skos:prefLabel xml:lang="de">Zensurexemplar</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">marques de censure</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#tilgung"/>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#tektur"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:definition xml:lang="de">Exemplar, das aufgrund von Zensurvorschriften nur eingeschränkt oder nicht für die Benutzung zur Verfügung stand</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://provenienz.gbv.de/thesaurus#zugangsnummer">
+	<skos:prefLabel xml:lang="de">Zugangsnummer</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">accession numbers</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">numéro d'inventaire</skos:prefLabel>
+	<skos:closeMatch rdf:resource="http://provenienz.gbv.de/thesaurus#bibliotheksexemplar"/>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:broader rdf:resource="http://provenienz.gbv.de/thesaurus#nummer"/>
+	<skos:definition xml:lang="de">Im Zusammenhang mit der Inventarisierung vergebene Nummer der im Rechnungsjahr erworbenen Medien. Die Nummer wird im Zugangsbuch einer Bibliothek und gelegentlich auch im Buchexemplar eingetragen</skos:definition>
+</skos:Concept>
+
+<skos:Collection rdf:about="http://provenienz.gbv.de/thesaurus#dedikationsexemplar">
+	<skos:hiddenLabel xml:lang="de">Dedikationsexemplar</skos:hiddenLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#widmung"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autor"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autorin"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin"/>
+	<skos:note xml:lang="de">Kein Deskriptor, benutze Kombination</skos:note>
+</skos:Collection>
+
+<skos:Collection rdf:about="http://provenienz.gbv.de/thesaurus#super-exlibris">
+	<skos:hiddenLabel xml:lang="de">Super-Exlibris</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="de">Supralibros</skos:hiddenLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#einband"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#monogramm"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#stempel"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#wappen"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#datum"/>
+	<skos:note xml:lang="de">Kein Deskriptor, benutze Kombination</skos:note>
+</skos:Collection>
+
+<skos:Collection rdf:about="http://provenienz.gbv.de/thesaurus#wappeneinband">
+	<skos:hiddenLabel xml:lang="de">Wappeneinband</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="de">Wappenexlibris</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="de">Wappenstempel</skos:hiddenLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#einband"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#wappen"/>
+	<skos:note xml:lang="de">Kein Deskriptor, benutze Kombination</skos:note>
+</skos:Collection>
+
+<skos:Collection rdf:about="http://provenienz.gbv.de/thesaurus#widmungsexemplar">
+	<skos:hiddenLabel xml:lang="de">Widmungsexemplar</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="en">presentation copies</skos:hiddenLabel>
+	<skos:inScheme rdf:resource="http://provenienz.gbv.de/thesaurus#"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_donator"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_donatorin"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#widmung"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autor"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#widmung_autorin"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaenger"/>
+	<skos:member rdf:resource="http://provenienz.gbv.de/thesaurus#exemplar_widmungsempfaengerin"/>
+	<skos:note xml:lang="de">Kein Deskriptor, benutze Kombination</skos:note>
+</skos:Collection>
+
+</rdf:RDF>

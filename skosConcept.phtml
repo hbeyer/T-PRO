@@ -1,0 +1,26 @@
+<h2 id="<?php echo $this->ancor; ?>"><?php echo $this->prefLabel; ?> <small>(<a href="<?php echo $this->url; ?>"><?php echo $this->ancor; ?></a>)</small></h2>
+<?php if ($foreign): ?>
+<p>Übersetzung: <?php echo $foreign; ?></p>
+<?php endif; ?>
+<?php if ($this->altLabels): ?>
+<p>Synonym: <?php echo implode(', ', $this->altLabels); ?></p>
+<?php endif; ?>
+<?php if ($this->definition): ?>
+<p>Definition: <?php echo $this->definition; ?></p>
+<?php endif; ?>
+<?php if ($this->broader and $this->broader->ancor != ''): ?>
+<p>Oberbegriff: <?php echo $this->broader->makeLink(); ?></p>
+<?php endif; ?>
+<?php if ($narrower): ?>
+<p>Unterbegriff: <?php echo implode(', ', $narrower); ?></p>
+<?php endif; ?>
+<?php if ($closeMatch): ?>
+<p>Verwandter Begriff: <?php echo implode(', ', $closeMatch); ?></p>
+<?php endif; ?>
+<?php if ($partOfCollections != array()): ?>
+<p>
+<?php foreach ($partOfCollections as $key => $collection): ?>
+In Kombination mit <?php echo $collection; ?> statt &bdquo;<?php echo $key ?>&rdquo;<br />
+<?php endforeach; ?>
+</p>
+<?php endif; ?>

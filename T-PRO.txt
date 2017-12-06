@@ -1,0 +1,602 @@
+﻿= T-PRO Thesaurus der Provenienzbegriffe =
+Stand: 28.11.2017
+
+Hier entsteht eine Repräsentation des T-PRO als Linked Open Data in RDF-SKOS
+
+
+
+﻿
+
+== <span id="auffuehrungsexemplar">Aufführungsexemplar (<small>[[#auffuehrungsexemplar|auffuehrungsexemplar]]</small>)</span> ==
+
+Definition: Exemplar, das für eine Aufführung verwendet wurde, z.B. Rollen-, Regie- oder Soufflierbuch﻿
+
+== <span id="auktionsexemplar">Auktionsexemplar (<small>[[#auktionsexemplar|auktionsexemplar]]</small>)</span> ==
+
+Übersetzung: ''auction copies'' (en)
+
+Definition: Exemplar, das auf einer Auktion versteigert worden ist. Quellen sind z.B. aktuelle und historische Erwerbungsunterlagen, Auktionskataloge, Einlagen. Oft kombiniert mit Einlage: Zettel, Nummer, Preis, Kaufdatum﻿
+
+== <span id="aussonderungsexemplar">Aussonderungsexemplar (<small>[[#aussonderungsexemplar|aussonderungsexemplar]]</small>)</span> ==
+
+Übersetzung: ''withdrawn copies'' (en)
+
+Definition: Exemplar, das aus dem Bestand einer Institution ausgesondert worden ist
+
+Verwandter Begriff: [[#bibliotheksexemplar|Bibliotheksexemplar]], [[#dublettenstempel|Dublettenstempel]]﻿
+
+== <span id="autogramm">Autogramm (<small>[[#autogramm|autogramm]]</small>)</span> ==
+
+Übersetzung: ''autographs'' (en), ''signature'' (fr)
+
+Synonym: Namenszug, Unterschrift
+
+Definition: Eigenhändiger Namenszug﻿
+
+== <span id="belegexemplar">Belegexemplar (<small>[[#belegexemplar|belegexemplar]]</small>)</span> ==
+
+Definition: Exemplar, das dem Autor oder einer Institution aufgrund vertraglicher Vereinbarungen als Beleg für eine Publikation zur Verfügung gestellt worden ist.﻿
+
+== <span id="beutegut">Beutegut (<small>[[#beutegut|beutegut]]</small>)</span> ==
+
+Übersetzung: ''loot'' (en), ''livre-trophée'' (fr)
+
+Definition: Kriegsbedingt verbrachtes Vermögen
+
+Oberbegriff: [[#enteignung|Enteignung]]
+
+Verwandter Begriff: [[#ns-raubgut|NS-Raubgut]], [[#restitution|Restitution]], [[#restitutionsexemplar|Restitutionsexemplar]]﻿
+
+== <span id="bibliotheksexemplar">Bibliotheksexemplar (<small>[[#bibliotheksexemplar|bibliotheksexemplar]]</small>)</span> ==
+
+Übersetzung: ''library copies'' (en)
+
+Definition: Exemplar aus dem Besitz von Institutionen (im Gegensatz zu Privatsammlungen), z.B. Archiv, Gesellschaft, Schule. Oft kombiniert mit Nummer, Signatur, Stempel
+
+Verwandter Begriff: [[#signatur|Signatur]], [[#zugangsnummer|Zugangsnummer]]﻿
+
+== <span id="bodenreform">Bodenreform (<small>[[#bodenreform|bodenreform]]</small>)</span> ==
+
+Übersetzung: ''land reform'' (en), ''réforme agraire'' (fr)
+
+Definition: Der Begriff Bodenreform bezeichnet eine Änderung der Eigentums- oder Nutzungsrechte an Grund, Boden und Ausstattung, z.B. Bodenreform in Deutschland nach Kriegsende 1945 in der Sowjetischen Besatzungszone (SBZ)
+
+Oberbegriff: [[#enteignung|Enteignung]]
+
+Verwandter Begriff: [[#restitution|Restitution]], [[#restitutionsexemplar|Restitutionsexemplar]]﻿
+
+== <span id="buchschnitt">Buchschnitt (<small>[[#buchschnitt|buchschnitt]]</small>)</span> ==
+
+Übersetzung: ''edge-marks'' (en)
+
+Definition: Merkmale auf dem Buchschnitt, die auf die Provenienz hinweisen, z.B. Notiz, Signatur, Stempel
+
+Verwandter Begriff: [[#einband|Einband]]﻿
+
+== <span id="datum">Datum (<small>[[#datum|datum]]</small>)</span> ==
+
+Übersetzung: ''dates'' (en)
+
+Definition: Zeitangabe jeder Art
+
+Unterbegriff: [[#kaufdatum|Kaufdatum]], [[#lesedatum|Lesedatum]]
+
+In Kombination mit [[#einband|Einband]], [[#monogramm|Monogramm]], [[#stempel|Stempel]], [[#wappen|Wappen]] statt &bdquo;Super-Exlibris&rdquo;﻿
+
+== <span id="dublettenstempel">Dublettenstempel (<small>[[#dublettenstempel|dublettenstempel]]</small>)</span> ==
+
+Übersetzung: ''duplicate stamps'' (en)
+
+Definition: Stempelabdruck, der die Aussonderung von Zweit- und Staffelexemplaren kennzeichnet
+
+Oberbegriff: [[#stempel|Stempel]]
+
+Verwandter Begriff: [[#aussonderungsexemplar|Aussonderungsexemplar]]﻿
+
+== <span id="durchschossenes_exemplar">Durchschossenes Exemplar (<small>[[#durchschossenes_exemplar|durchschossenes_exemplar]]</small>)</span> ==
+
+Übersetzung: ''interleaved copy'' (en), ''exemplaire interfolié'' (fr)
+
+Definition: Buchexemplar, das zwischen den einzelnen bedruckten Blättern mit leeren Blättern versehen ist
+
+Verwandter Begriff: [[#extra-ausstattung|Extra-Ausstattung]]﻿
+
+== <span id="einband">Einband (<small>[[#einband|einband]]</small>)</span> ==
+
+Übersetzung: ''bindings'' (en), ''reliures'' (fr)
+
+Definition: Einband mit Merkmalen auf der Außenseite der Buchdeckel und des Buchrückens, die auf die Provenienz hinweisen, z.B. Initiale, Monogramm, Signatur, Wappen
+
+Verwandter Begriff: [[#buchschnitt|Buchschnitt]], [[#makulatur|Makulatur]]
+
+In Kombination mit [[#monogramm|Monogramm]], [[#stempel|Stempel]], [[#wappen|Wappen]], [[#datum|Datum]] statt &bdquo;Super-Exlibris&rdquo;<br />In Kombination mit [[#wappen|Wappen]] statt &bdquo;Wappeneinband&rdquo;﻿
+
+== <span id="einlage">Einlage (<small>[[#einlage|einlage]]</small>)</span> ==
+
+Übersetzung: ''insertions'' (en)
+
+Definition: Einlage oder Beilage jeder Art, die Hinweise auf den Vorbesitzer gibt
+
+Unterbegriff: [[#einlage_brief|Einlage: Brief]], [[#einlage_fotografie|Einlage: Fotografie]], [[#einlage_lesezeichen|Einlage: Lesezeichen]], [[#einlage_zettel|Einlage: Zettel]]﻿
+
+== <span id="einlage_brief">Einlage: Brief (<small>[[#einlage_brief|einlage_brief]]</small>)</span> ==
+
+Synonym: Ansichtskarte, Postkarte
+
+Definition: Schriftliche Mitteilung an einen bestimmten Adressaten; oft mit Autogramm oder Initialen und Datum versehen
+
+Oberbegriff: [[#einlage|Einlage]]
+
+Verwandter Begriff: [[#einlage_zettel|Einlage: Zettel]]﻿
+
+== <span id="einlage_fotografie">Einlage: Fotografie (<small>[[#einlage_fotografie|einlage_fotografie]]</small>)</span> ==
+
+Definition: Fotoabzug auf Papier; nicht benutzt für Reproduktionen in Zeitungen oder auf Ansichtskarten
+
+Oberbegriff: [[#einlage|Einlage]]﻿
+
+== <span id="einlage_haar">Einlage: Haar (<small>[[#einlage_haar|einlage_haar]]</small>)</span> ==
+
+Definition: Haar/e, Haarlocke
+
+Oberbegriff: [[#einlage|Einlage]]﻿
+
+== <span id="einlage_lesezeichen">Einlage: Lesezeichen (<small>[[#einlage_lesezeichen|einlage_lesezeichen]]</small>)</span> ==
+
+Definition: Künstlerisch oder als Werbeträger gestaltetes Lesezeichen; nicht benutzt für Papierschnipsel oder Eselsohren
+
+Oberbegriff: [[#einlage|Einlage]]﻿
+
+== <span id="einlage_pflanze">Einlage: Pflanze (<small>[[#einlage_pflanze|einlage_pflanze]]</small>)</span> ==
+
+Definition: Pflanze oder Pflanzenteile
+
+Oberbegriff: [[#einlage|Einlage]]﻿
+
+== <span id="einlage_zettel">Einlage: Zettel (<small>[[#einlage_zettel|einlage_zettel]]</small>)</span> ==
+
+Definition: Notizzettel, bis 30.09.2014: auch für Zeitungsauschnitt
+
+Oberbegriff: [[#einlage|Einlage]]﻿
+
+== <span id="einlage_zettel_zeitungsausschnitt">Einlage: Zettel: Zeitungsausschnitt (<small>[[#einlage_zettel_zeitungsausschnitt|einlage_zettel_zeitungsausschnitt]]</small>)</span> ==
+
+Definition: Ausschnitt (auch Ausriss oder Einzelseite) aus Zeitung oder Zeitschrift
+
+Oberbegriff: [[#einlage_zettel|Einlage: Zettel]]﻿
+
+== <span id="emblem">Emblem (<small>[[#emblem|emblem]]</small>)</span> ==
+
+Übersetzung: ''devices'' (en), ''emblème'' (fr)
+
+Definition: Sinnbild﻿
+
+== <span id="enteignung">Enteignung (<small>[[#enteignung|enteignung]]</small>)</span> ==
+
+Übersetzung: ''expropriation'' (en), ''expropriation'' (fr)
+
+Definition: Als Enteignung wird der Entzug des Eigentums an einer beweglichen oder unbeweglichen Sache durch einen hoheitlichen Akt bezeichnet
+
+Unterbegriff: [[#beutegut|Beutegut]], [[#bodenreform|Bodenreform]], [[#ns-raubgut|NS-Raubgut]], [[#saekularisationsgut|Säkularisationsgut]]﻿
+
+== <span id="etikett">Etikett (<small>[[#etikett|etikett]]</small>)</span> ==
+
+Übersetzung: ''labels'' (en), ''vignettes'' (fr)
+
+Definition: Anhänger, Aufkleber jeder Art
+
+Unterbegriff: [[#etikett_buchbinder|Etikett: Buchbinder]], [[#etikett_buchbinderin|Etikett: Buchbinderin]], [[#etikett_buchhaendler|Etikett: Buchhändler]], [[#etikett_buchhaendlerin|Etikett: Buchhändlerin]]
+
+Verwandter Begriff: [[#stempel|Stempel]]﻿
+
+== <span id="etikett_buchbinder">Etikett: Buchbinder (<small>[[#etikett_buchbinder|etikett_buchbinder]]</small>)</span> ==
+
+Übersetzung: ''binders' tickets'' (en)
+
+Definition: Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Nummer, Preis und Datum
+
+Oberbegriff: [[#etikett|Etikett]]
+
+Verwandter Begriff: [[#etikett_buchbinderin|Etikett: Buchbinderin]], [[#stempel_buchbinder|Stempel: Buchbinder]], [[#stempel_buchbinderin|Stempel: Buchbinderin]]﻿
+
+== <span id="etikett_buchbinderin">Etikett: Buchbinderin (<small>[[#etikett_buchbinderin|etikett_buchbinderin]]</small>)</span> ==
+
+Übersetzung: ''binders' tickets'' (en)
+
+Definition: Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Nummer, Preis und Datum
+
+Oberbegriff: [[#etikett|Etikett]]
+
+Verwandter Begriff: [[#etikett_buchbinder|Etikett: Buchbinder]], [[#stempel_buchbinder|Stempel: Buchbinder]], [[#stempel_buchbinderin|Stempel: Buchbinderin]]﻿
+
+== <span id="etikett_buchhaendler">Etikett: Buchhändler (<small>[[#etikett_buchhaendler|etikett_buchhaendler]]</small>)</span> ==
+
+Übersetzung: ''booksellers' labels'' (en)
+
+Definition: Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Preis und Datum
+
+Oberbegriff: [[#etikett|Etikett]]
+
+Verwandter Begriff: [[#etikett_buchhaendlerin|Etikett: Buchhändlerin]], [[#stempel_buchhaendler|Stempel: Buchhändler]], [[#stempel_buchhaendlerin|Stempel: Buchhändlerin]]﻿
+
+== <span id="etikett_buchhaendlerin">Etikett: Buchhändlerin (<small>[[#etikett_buchhaendlerin|etikett_buchhaendlerin]]</small>)</span> ==
+
+Übersetzung: ''booksellers' labels'' (en)
+
+Definition: Zettel mit Firmennamen, der z.B. auf der Innenseite der Buchdeckel aufgeklebt ist; oft kombiniert mit Preis und Datum
+
+Oberbegriff: [[#etikett|Etikett]]
+
+Verwandter Begriff: [[#etikett_buchhaendler|Etikett: Buchhändler]], [[#stempel_buchhaendler|Stempel: Buchhändler]], [[#stempel_buchhaendlerin|Stempel: Buchhändlerin]]﻿
+
+== <span id="exemplar_autor">Exemplar: Autor (<small>[[#exemplar_autor|exemplar_autor]]</small>)</span> ==
+
+Übersetzung: ''authors' copies'' (en), ''envoi de l'auteur'' (fr)
+
+Synonym: Autorenexemplar
+
+Definition: Exemplar, das vom Autor benutzt worden ist (z.B. für Korrekturen) oder das Teil seiner Privatbibliothek war; oft kombiniert mit Autogramm, Initiale, Datum. Der Begriff wird nicht für Exemplare gebraucht, die vom Autor einfach nur gewidmet oder verschenkt worden sind
+
+Verwandter Begriff: [[#exemplar_autorin|Exemplar: Autorin]]﻿
+
+== <span id="exemplar_autorin">Exemplar: Autorin (<small>[[#exemplar_autorin|exemplar_autorin]]</small>)</span> ==
+
+Übersetzung: ''authors' copies'' (en), ''envoi de l'auteur'' (fr)
+
+Synonym: Autorenexemplar
+
+Definition: Exemplar, das von der Autorin benutzt worden ist (z.B. für Korrekturen) oder das Teil seiner Privatbibliothek war; oft kombiniert mit Autogramm, Initiale, Datum. Der Begriff wird nicht für Exemplare gebraucht, die von der Autorin einfach nur gewidmet oder verschenkt worden sind
+
+Verwandter Begriff: [[#exemplar_autor|Exemplar: Autor]]﻿
+
+== <span id="exemplar_donator">Exemplar: Donator (<small>[[#exemplar_donator|exemplar_donator]]</small>)</span> ==
+
+Übersetzung: ''donors' copies'' (en), ''ex-dono imprimé'', ''ex-legato imprimé'' (fr)
+
+Definition: Exemplar, das der Vorbesitzer (Donator) verschenkt, gespendet oder gestiftet hat; nicht verwendet für Absender von Beleg- und Tauschexemplaren.
+
+Verwandter Begriff: [[#exemplar_donatorin|Exemplar: Donatorin]], [[#belegexemplar|Belegexemplar]], [[#tauschexemplar|Tauschexemplar]], [[#widmung|Widmung]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]]
+
+In Kombination mit [[#exemplar_donatorin|Exemplar: Donatorin]], [[#widmung|Widmung]], [[#widmung_autor|Widmung: Autor]], [[#widmung_autorin|Widmung: Autorin]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]] statt &bdquo;Widmungsexemplar&rdquo;﻿
+
+== <span id="exemplar_donatorin">Exemplar: Donatorin (<small>[[#exemplar_donatorin|exemplar_donatorin]]</small>)</span> ==
+
+Übersetzung: ''donors' copies'' (en), ''ex-dono imprimé'', ''ex-legato imprimé'' (fr)
+
+Definition: Exemplar, das die Vorbesitzerin (Donatorin) verschenkt, gespendet oder gestiftet hat; nicht verwendet für Absenderinnen von Beleg- und Tauschexemplaren
+
+Verwandter Begriff: [[#exemplar_donator|Exemplar: Donator]], [[#belegexemplar|Belegexemplar]], [[#tauschexemplar|Tauschexemplar]], [[#widmung|Widmung]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]]
+
+In Kombination mit [[#exemplar_donator|Exemplar: Donator]], [[#widmung|Widmung]], [[#widmung_autor|Widmung: Autor]], [[#widmung_autorin|Widmung: Autorin]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]] statt &bdquo;Widmungsexemplar&rdquo;﻿
+
+== <span id="exemplar_widmungsempfaenger">Exemplar: Widmungsempfänger (<small>[[#exemplar_widmungsempfaenger|exemplar_widmungsempfaenger]]</small>)</span> ==
+
+Übersetzung: ''dedicatees' copies'' (en)
+
+Definition: Exemplar der Person oder Institution, der das Exemplar gewidmet worden ist
+
+Verwandter Begriff: [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]], [[#exemplar_donator|Exemplar: Donator]], [[#exemplar_donatorin|Exemplar: Donatorin]], [[#widmung|Widmung]], [[#widmung_autor|Widmung: Autor]], [[#widmung_autorin|Widmung: Autorin]]
+
+In Kombination mit [[#widmung|Widmung]], [[#widmung_autor|Widmung: Autor]], [[#widmung_autorin|Widmung: Autorin]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]] statt &bdquo;Dedikationsexemplar&rdquo;<br />In Kombination mit [[#exemplar_donator|Exemplar: Donator]], [[#exemplar_donatorin|Exemplar: Donatorin]], [[#widmung|Widmung]], [[#widmung_autor|Widmung: Autor]], [[#widmung_autorin|Widmung: Autorin]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]] statt &bdquo;Widmungsexemplar&rdquo;﻿
+
+== <span id="exemplar_widmungsempfaengerin">Exemplar: Widmungsempfängerin (<small>[[#exemplar_widmungsempfaengerin|exemplar_widmungsempfaengerin]]</small>)</span> ==
+
+Übersetzung: ''dedicatees' copies'' (en)
+
+Definition: Exemplar der Person, der das Exemplar gewidmet worden ist
+
+Verwandter Begriff: [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_donator|Exemplar: Donator]], [[#exemplar_donatorin|Exemplar: Donatorin]], [[#widmung|Widmung]], [[#widmung_autor|Widmung: Autor]], [[#widmung_autorin|Widmung: Autorin]]
+
+In Kombination mit [[#widmung|Widmung]], [[#widmung_autor|Widmung: Autor]], [[#widmung_autorin|Widmung: Autorin]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]] statt &bdquo;Dedikationsexemplar&rdquo;<br />In Kombination mit [[#exemplar_donator|Exemplar: Donator]], [[#exemplar_donatorin|Exemplar: Donatorin]], [[#widmung|Widmung]], [[#widmung_autor|Widmung: Autor]], [[#widmung_autorin|Widmung: Autorin]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]] statt &bdquo;Widmungsexemplar&rdquo;﻿
+
+== <span id="exlibris">Exlibris (<small>[[#exlibris|exlibris]]</small>)</span> ==
+
+Übersetzung: ''bookplates'' (en), ''ex-libris'' (fr)
+
+Definition: Auf der Innenseite des vorderen Buchdeckels aufgeklebter Zettel oder aufgedruckter Stempel; oft kombiniert mit Autogramm, Emblem, Initiale, Monogramm, Motto, Wappen﻿
+
+== <span id="extra-ausstattung">Extra-Ausstattung (<small>[[#extra-ausstattung|extra-ausstattung]]</small>)</span> ==
+
+Übersetzung: ''extra-illustrated copies'' (en)
+
+Definition: Zusammenfassende Bezeichnung für Illustrationen (z.B. ausgeschnittene Initialen, Abbildungen), die in das Exemplar eingeklebt oder eingeheftet worden sind und es so zu einem Unikat machen
+
+Verwandter Begriff: [[#durchschossenes_exemplar|Durchschossenes Exemplar]], [[#handzeichnung|Handzeichnung]], [[#portraet|Porträt]]﻿
+
+== <span id="genealogische_notiz">Genealogische Notiz (<small>[[#genealogische_notiz|genealogische_notiz]]</small>)</span> ==
+
+Übersetzung: ''genealogical notes'' (en), ''notes généalogiques'' (fr)
+
+Definition: Informationen über Herkunft und Verwandtschaftsverhältnisse (einzelne Personen und Familien), oft in tabellarischen Übersichten als Stammtafeln dargestellt
+
+Oberbegriff: [[#notiz|Notiz]]﻿
+
+== <span id="grafisches_zeichen">Grafisches Zeichen (<small>[[#grafisches_zeichen|grafisches_zeichen]]</small>)</span> ==
+
+Definition: Vom Vorbesitzer zur Kennzeichnung des Exemplars (nicht einzelner Textstellen) angebrachtes Zeichen aus grafischen Elementen, z.B. Dreieck﻿
+
+== <span id="handzeichnung">Handzeichnung (<small>[[#handzeichnung|handzeichnung]]</small>)</span> ==
+
+Definition: Karikatur, Strichzeichnung
+
+Oberbegriff: [[#portraet|Porträt]]﻿
+
+== <span id="initiale">Initiale (<small>[[#initiale|initiale]]</small>)</span> ==
+
+Übersetzung: ''initials'' (en), ''initiales'' (fr)
+
+Definition: Anfangsbuchstabe/n eines Namens. Oft kombiniert mit Einband (bis 30.09.2014: Handschriftlicher Anfangsbuchstabe eines Namens)
+
+Verwandter Begriff: [[#monogramm|Monogramm]]﻿
+
+== <span id="kaufdatum">Kaufdatum (<small>[[#kaufdatum|kaufdatum]]</small>)</span> ==
+
+Definition: Datum, an dem ein Exemplar durch Kauf oder Tausch erworben worden ist
+
+Oberbegriff: [[#datum|Datum]]
+
+Verwandter Begriff: [[#lesedatum|Lesedatum]], [[#nummer|Nummer]]﻿
+
+== <span id="lesedatum">Lesedatum (<small>[[#lesedatum|lesedatum]]</small>)</span> ==
+
+Übersetzung: ''reading dates'' (en)
+
+Definition: Lese- oder Ausleihdaten des Vorbesitzers
+
+Oberbegriff: [[#datum|Datum]]
+
+Verwandter Begriff: [[#kaufdatum|Kaufdatum]], [[#nummer|Nummer]]﻿
+
+== <span id="makulatur">Makulatur (<small>[[#makulatur|makulatur]]</small>)</span> ==
+
+Übersetzung: ''spoilage'' (en), ''fragments imprimés'', ''fragments manuscrits'' (fr)
+
+Definition: Unbrauchbar gewordenes, bedrucktes oder beschriebenes Papier oder Pergament, das als Einbandmaterial verwendet wurde
+
+Verwandter Begriff: [[#einband|Einband]]﻿
+
+== <span id="marginalie">Marginalie (<small>[[#marginalie|marginalie]]</small>)</span> ==
+
+Übersetzung: ''marginalia'' (en), ''annotations marginales'' (fr)
+
+Synonym: Annotation
+
+Definition: Anmerkung (nicht nur Merkzeichen) am Rand einer Seite
+
+Verwandter Begriff: [[#merkzeichen|Merkzeichen]], [[#notiz|Notiz]]﻿
+
+== <span id="merkzeichen">Merkzeichen (<small>[[#merkzeichen|merkzeichen]]</small>)</span> ==
+
+Übersetzung: ''underscoring'', ''fists underscoring'' (en)
+
+Synonym: Annotation, Anstreichung, Unterstreichung
+
+Definition: Zeichen, mit denen der Vorbesitzer Textstellen markiert hat, z.B. Unter- und Anstreichung, hinweisende Hand, Chiffre
+
+Verwandter Begriff: [[#marginalie|Marginalie]], [[#notiz|Notiz]]﻿
+
+== <span id="monogramm">Monogramm (<small>[[#monogramm|monogramm]]</small>)</span> ==
+
+Übersetzung: ''monograms'' (en), ''monogramme'' (fr)
+
+Definition: Namenszeichen aus künstlerisch gestalteten oder verschlungenen Buchstaben
+
+Verwandter Begriff: [[#initiale|Initiale]]
+
+In Kombination mit [[#einband|Einband]], [[#stempel|Stempel]], [[#wappen|Wappen]], [[#datum|Datum]] statt &bdquo;Super-Exlibris&rdquo;﻿
+
+== <span id="motto">Motto (<small>[[#motto|motto]]</small>)</span> ==
+
+Übersetzung: ''mottoes'' (en), ''devise'' (fr)
+
+Definition: Devise, Leitspruch, Sinnspruch
+
+Verwandter Begriff: [[#|T-PRO Thesaurus der Provenienzbegriffe]]﻿
+
+== <span id="ns-raubgut">NS-Raubgut (<small>[[#ns-raubgut|ns-raubgut]]</small>)</span> ==
+
+Übersetzung: ''Nazi looted art'' (en), ''pillage nazi'' (fr)
+
+Definition: NS-verfolgungsbedingt entzogenes Vermögen
+
+Oberbegriff: [[#enteignung|Enteignung]]
+
+Verwandter Begriff: [[#beutegut|Beutegut]], [[#restitution|Restitution]], [[#restitutionsexemplar|Restitutionsexemplar]]﻿
+
+== <span id="notiz">Notiz (<small>[[#notiz|notiz]]</small>)</span> ==
+
+Übersetzung: ''inscriptions'' (en), ''inscriptions'', ''notes'' (fr)
+
+Synonym: Annotation
+
+Definition: Eintragung auf dem Vorsatzblatt oder eingeschossenen Blättern, z.B. Inhaltsverzeichnis
+
+Unterbegriff: [[#genealogische_notiz|Genealogische Notiz]]
+
+Verwandter Begriff: [[#marginalie|Marginalie]], [[#merkzeichen|Merkzeichen]], [[#motto|Motto]], [[#widmung|Widmung]]﻿
+
+== <span id="nummer">Nummer (<small>[[#nummer|nummer]]</small>)</span> ==
+
+Übersetzung: ''numbers'' (en)
+
+Definition: Ziffern, Nummern jeder Art, z.B. Zugangsnummer, Auktionsposten
+
+Unterbegriff: [[#zugangsnummer|Zugangsnummer]]
+
+Verwandter Begriff: [[#datum|Datum]], [[#kaufdatum|Kaufdatum]], [[#lesedatum|Lesedatum]], [[#preis|Preis]], [[#signatur|Signatur]]﻿
+
+== <span id="portraet">Porträt (<small>[[#portraet|portraet]]</small>)</span> ==
+
+Übersetzung: ''portrait'' (en), ''portrait'' (fr)
+
+Definition: Künstlerische Darstellung einer oder mehrerer Personen, z.B. Fotografie, Relief, Zeichnung
+
+Verwandter Begriff: [[#handzeichnung|Handzeichnung]]﻿
+
+== <span id="preis">Preis (<small>[[#preis|preis]]</small>)</span> ==
+
+Übersetzung: ''prices'' (en), ''prix du livre'' (fr)
+
+Definition: Angaben zu Kaufpreis oder Bindekosten
+
+Verwandter Begriff: [[#nummer|Nummer]]﻿
+
+== <span id="restitution">Restitution (<small>[[#restitution|restitution]]</small>)</span> ==
+
+Definition: Erstattung oder Rückgabe geraubter, enteigneter und zwangsverkaufter Kulturgüter
+
+Verwandter Begriff: [[#beutegut|Beutegut]], [[#bodenreform|Bodenreform]], [[#ns-raubgut|NS-Raubgut]], [[#restitution|Restitution]]﻿
+
+== <span id="restitutionsexemplar">Restitutionsexemplar (<small>[[#restitutionsexemplar|restitutionsexemplar]]</small>)</span> ==
+
+Übersetzung: ''exemplaire de restitution'' (fr)
+
+Definition: Buchexemplar, das im Zuge einer Restitution an den rechtmäßigen Eigentümer zurückgegeben worden ist
+
+Verwandter Begriff: [[#beutegut|Beutegut]], [[#bodenreform|Bodenreform]], [[#ns-raubgut|NS-Raubgut]], [[#restitution|Restitution]]﻿
+
+== <span id="rezensionsexemplar">Rezensionsexemplar (<small>[[#rezensionsexemplar|rezensionsexemplar]]</small>)</span> ==
+
+Definition: Exemplar, das dem Vorbesitzer für eine Rezension zur Verfügung gestellt worden ist und z.B. durch einen Stempel als Rezensionsexemplar gekennzeichnet worden ist﻿
+
+== <span id="siegel">Siegel (<small>[[#siegel|siegel]]</small>)</span> ==
+
+Übersetzung: ''seals'' (en)
+
+Definition: Siegelabdruck jeder Art﻿
+
+== <span id="signatur">Signatur (<small>[[#signatur|signatur]]</small>)</span> ==
+
+Übersetzung: ''shelf marks'' (en)
+
+Synonym: Standortnummer
+
+Definition: Alte Standortnummer des Exemplars in der Bibliothek des Vorbesitzers
+
+Verwandter Begriff: [[#bibliotheksexemplar|Bibliotheksexemplar]], [[#nummer|Nummer]], [[#zugangsnummer|Zugangsnummer]]﻿
+
+== <span id="stempel">Stempel (<small>[[#stempel|stempel]]</small>)</span> ==
+
+Übersetzung: ''stamps'' (en), ''cachets'' (fr)
+
+Definition: Stempelabdruck jeder Art; Firmenstempel, Einbandstempel
+
+Verwandter Begriff: [[#dublettenstempel|Dublettenstempel]], [[#stempel_buchbinder|Stempel: Buchbinder]], [[#stempel_buchbinderin|Stempel: Buchbinderin]], [[#stempel_buchhaendler|Stempel: Buchhändler]], [[#stempel_buchhaendlerin|Stempel: Buchhändlerin]]
+
+In Kombination mit [[#einband|Einband]], [[#monogramm|Monogramm]], [[#wappen|Wappen]], [[#datum|Datum]] statt &bdquo;Super-Exlibris&rdquo;﻿
+
+== <span id="stempel_buchbinder">Stempel: Buchbinder (<small>[[#stempel_buchbinder|stempel_buchbinder]]</small>)</span> ==
+
+Definition: Stempelabdruck mit Firmennamen, z.B. auf dem Einband oder der Innenseite des Buchdeckels
+
+Verwandter Begriff: [[#stempel_buchbinderin|Stempel: Buchbinderin]], [[#etikett_buchbinder|Etikett: Buchbinder]], [[#etikett_buchbinderin|Etikett: Buchbinderin]]﻿
+
+== <span id="stempel_buchbinderin">Stempel: Buchbinderin (<small>[[#stempel_buchbinderin|stempel_buchbinderin]]</small>)</span> ==
+
+Definition: Stempelabdruck mit Firmennamen, z.B. auf dem Einband oder der Innenseite des Buchdeckels
+
+Verwandter Begriff: [[#stempel_buchbinder|Stempel: Buchbinder]], [[#etikett_buchbinder|Etikett: Buchbinder]], [[#etikett_buchbinderin|Etikett: Buchbinderin]]﻿
+
+== <span id="stempel_buchhaendler">Stempel: Buchhändler (<small>[[#stempel_buchhaendler|stempel_buchhaendler]]</small>)</span> ==
+
+Definition: Stempelabdruck mit Firmennamen, z.B. auf dem Titelblatt oder der Innenseite des Buchdeckels
+
+Verwandter Begriff: [[#stempel_buchhaendlerin|Stempel: Buchhändlerin]], [[#etikett_buchhaendler|Etikett: Buchhändler]], [[#etikett_buchhaendlerin|Etikett: Buchhändlerin]]﻿
+
+== <span id="stempel_buchhaendlerin">Stempel: Buchhändlerin (<small>[[#stempel_buchhaendlerin|stempel_buchhaendlerin]]</small>)</span> ==
+
+Definition: Stempelabdruck mit Firmennamen, z.B. auf dem Titelblatt oder der Innenseite des Buchdeckels
+
+Verwandter Begriff: [[#stempel_buchhaendler|Stempel: Buchhändler]], [[#etikett_buchhaendler|Etikett: Buchhändler]], [[#etikett_buchhaendlerin|Etikett: Buchhändlerin]]﻿
+
+== <span id="saekularisationsgut">Säkularisationsgut (<small>[[#saekularisationsgut|saekularisationsgut]]</small>)</span> ==
+
+Definition: Vermögen aus der staatlichen Einziehung oder Nutzung kirchlicher Besitztümer
+
+Oberbegriff: [[#enteignung|Enteignung]]﻿
+
+== <span id="tauschexemplar">Tauschexemplar (<small>[[#tauschexemplar|tauschexemplar]]</small>)</span> ==
+
+Definition: Exemplar, das von einer Institution durch Tausch erworben worden ist﻿
+
+== <span id="tektur">Tektur (<small>[[#tektur|tektur]]</small>)</span> ==
+
+Definition: Schwärzung, Überklebung
+
+Verwandter Begriff: [[#tilgung|Tilgung]], [[#zensurexemplar|Zensurexemplar]]﻿
+
+== <span id="tilgung">Tilgung (<small>[[#tilgung|tilgung]]</small>)</span> ==
+
+Definition: Fehlstelle oder herausgelöstes Blatt, die auf die Provenienz hinweisen
+
+Verwandter Begriff: [[#tektur|Tektur]], [[#zensurexemplar|Zensurexemplar]]﻿
+
+== <span id="wappen">Wappen (<small>[[#wappen|wappen]]</small>)</span> ==
+
+Übersetzung: ''coats of arms'' (en), ''armes'' (fr)
+
+Definition: Wappen jeder Art; oft kombiniert mit Einband, Exlibris, Stempel
+
+In Kombination mit [[#einband|Einband]], [[#monogramm|Monogramm]], [[#stempel|Stempel]], [[#datum|Datum]] statt &bdquo;Super-Exlibris&rdquo;<br />In Kombination mit [[#einband|Einband]] statt &bdquo;Wappeneinband&rdquo;﻿
+
+== <span id="widmung">Widmung (<small>[[#widmung|widmung]]</small>)</span> ==
+
+Übersetzung: ''presentation inscriptions'', ''presentation insertions'', ''presentation leaves'', ''presentation bindings'' (en), ''ex-dono manuscrit'' (fr)
+
+Synonym: Dedikation
+
+Definition: Handschriftliche oder individuelle gedruckte Zueignung jeder Art, z.B. auf dem Schmutztitel oder einer Einlage; oft kombiniert mit Autogramm, Initiale, Datum
+
+Unterbegriff: [[#widmung_autor|Widmung: Autor]], [[#widmung_autorin|Widmung: Autorin]]
+
+Verwandter Begriff: [[#exemplar_donator|Exemplar: Donator]], [[#exemplar_donatorin|Exemplar: Donatorin]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]]
+
+In Kombination mit [[#widmung_autor|Widmung: Autor]], [[#widmung_autorin|Widmung: Autorin]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]] statt &bdquo;Dedikationsexemplar&rdquo;<br />In Kombination mit [[#exemplar_donator|Exemplar: Donator]], [[#exemplar_donatorin|Exemplar: Donatorin]], [[#widmung_autor|Widmung: Autor]], [[#widmung_autorin|Widmung: Autorin]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]] statt &bdquo;Widmungsexemplar&rdquo;﻿
+
+== <span id="widmung_autor">Widmung: Autor (<small>[[#widmung_autor|widmung_autor]]</small>)</span> ==
+
+Übersetzung: ''authors' presentation inscriptions'' (en)
+
+Definition: Handschriftliche oder individuelle gedruckte Zueignung des Autors, z.B. auf dem Schmutztitel oder einer Einlage; oft kombiniert mit Autogramm, Initiale, Datum
+
+Oberbegriff: [[#widmung|Widmung]]
+
+Verwandter Begriff: [[#widmung_autorin|Widmung: Autorin]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]]
+
+In Kombination mit [[#widmung|Widmung]], [[#widmung_autorin|Widmung: Autorin]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]] statt &bdquo;Dedikationsexemplar&rdquo;<br />In Kombination mit [[#exemplar_donator|Exemplar: Donator]], [[#exemplar_donatorin|Exemplar: Donatorin]], [[#widmung|Widmung]], [[#widmung_autorin|Widmung: Autorin]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]] statt &bdquo;Widmungsexemplar&rdquo;﻿
+
+== <span id="widmung_autorin">Widmung: Autorin (<small>[[#widmung_autorin|widmung_autorin]]</small>)</span> ==
+
+Übersetzung: ''authors' presentation inscriptions'' (en)
+
+Definition: Handschriftliche oder individuelle gedruckte Zueignung der Autorin, z.B. auf dem Schmutztitel oder einer Einlage; oft kombiniert mit Autogramm, Initiale, Datum
+
+Oberbegriff: [[#widmung|Widmung]]
+
+Verwandter Begriff: [[#widmung_autor|Widmung: Autor]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]]
+
+In Kombination mit [[#widmung|Widmung]], [[#widmung_autor|Widmung: Autor]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]] statt &bdquo;Dedikationsexemplar&rdquo;<br />In Kombination mit [[#exemplar_donator|Exemplar: Donator]], [[#exemplar_donatorin|Exemplar: Donatorin]], [[#widmung|Widmung]], [[#widmung_autor|Widmung: Autor]], [[#exemplar_widmungsempfaenger|Exemplar: Widmungsempfänger]], [[#exemplar_widmungsempfaengerin|Exemplar: Widmungsempfängerin]] statt &bdquo;Widmungsexemplar&rdquo;﻿
+
+== <span id="zensur">Zensur (<small>[[#zensur|zensur]]</small>)</span> ==
+
+Definition: Kontrolle des Publikationsprozesses durch staatliche bzw. kirchliche Zensurorgane. Oft kombiniert mit Stempel
+
+Verwandter Begriff: [[#zensurexemplar|Zensurexemplar]]﻿
+
+== <span id="zensurexemplar">Zensurexemplar (<small>[[#zensurexemplar|zensurexemplar]]</small>)</span> ==
+
+Übersetzung: ''marques de censure'' (fr)
+
+Definition: Exemplar, das aufgrund von Zensurvorschriften nur eingeschränkt oder nicht für die Benutzung zur Verfügung stand
+
+Verwandter Begriff: [[#tilgung|Tilgung]], [[#tektur|Tektur]]﻿
+
+== <span id="zugangsnummer">Zugangsnummer (<small>[[#zugangsnummer|zugangsnummer]]</small>)</span> ==
+
+Übersetzung: ''accession numbers'' (en), ''numéro d'inventaire'' (fr)
+
+Definition: Im Zusammenhang mit der Inventarisierung vergebene Nummer der im Rechnungsjahr erworbenen Medien. Die Nummer wird im Zugangsbuch einer Bibliothek und gelegentlich auch im Buchexemplar eingetragen
+
+Oberbegriff: [[#nummer|Nummer]]
+
+Verwandter Begriff: [[#bibliotheksexemplar|Bibliotheksexemplar]]
