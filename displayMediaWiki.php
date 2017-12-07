@@ -16,6 +16,7 @@ $format = 'turtle';
 
 require __DIR__ .'/vendor/autoload.php';
 include('class_skosConcept.php');
+include('class_skosCollection.php');
 include('class_skosLink.php');
 
 $data = file_get_contents($path);

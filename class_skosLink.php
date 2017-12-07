@@ -11,10 +11,6 @@ class skosLink {
 		if (get_class($literal) == 'EasyRdf_Literal') {
 			$this->label = $literal->__toString();
 		}
-		elseif ($resource->getResource('rdf:type')->shorten() == 'skos:Collection') { 
-			$literal = $resource->getLiteral('skos:hiddenLabel', 'de');
-			$this->label = $literal->__toString();
-		}
 		else {
 			$this->label = "*Resource nicht auffindbar*";
 		}

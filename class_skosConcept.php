@@ -54,8 +54,8 @@ class skosConcept {
 		$graph = $resource->getGraph();
 		$refering = $graph->resourcesMatching('skos:member', $resource);
 		foreach ($refering as $resourceRef) {
-			$literal = $resourceRef->getLiteral('skos:hiddenLabel', 'de');
-			$label = $literal->__toString();
+			$collection = new skosCollection($resourceRef);
+			$label = $collection->makeSyntheticLabel();
 			$this->partOfCollections[$label] = array();
 			$members = $resourceRef->allResources('skos:member');
 			foreach ($members as $member) {
@@ -102,13 +102,15 @@ class skosConcept {
 		}
 		
 		$partOfCollections = array();
+		$translation = array('<i>' => '\'\'', '</i>' => '\'\'');
 		foreach ($this->partOfCollections as $key => $members) {
+			$key = strtr($key, $translation);
 			$stringCollections = 'In Kombination mit ';
 			foreach ($members as $member) {
 				$stringCollections .= $member->makeLinkMediaWiki().", ";
 			}
 			$stringCollections = substr($stringCollections, 0, -2);
-			$stringCollections .= ' statt &bdquo;'.$key.'&rdquo;';
+			$stringCollections .= ' statt '.$key;
 			$partOfCollections[] = $stringCollections;
 		}
 		$partOfCollections = implode('<br />', $partOfCollections);
@@ -153,12 +155,15 @@ class skosConcept {
 		
 		$partOfCollections = array();
 		foreach ($this->partOfCollections as $key => $members) {
-			$partOfCollections[$key] = '';
+			$stringCollections = 'In Kombination mit ';
 			foreach ($members as $member) {
-				$partOfCollections[$key] .= $member->makeLink().', ';
+				$stringCollections .= $member->makeLink().", ";
 			}
-			$partOfCollections[$key] = substr($partOfCollections[$key], 0, -2);
+			$stringCollections = substr($stringCollections, 0, -2);
+			$stringCollections .= ' statt '.$key;
+			$partOfCollections[] = $stringCollections;
 		}
+		$partOfCollections = implode('<br />', $partOfCollections);		
 		
 		include('skosConcept.phtml');
 		
@@ -168,6 +173,11 @@ class skosConcept {
 
 function addItalics($string) {
 	$string = '<i>'.$string.'</i>';
+	return($string);
+}
+
+function addQuotations($string) {
+	$string = '&bdquo;'.$string.'&rdquo;';
 	return($string);
 }
 
