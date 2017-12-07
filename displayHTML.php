@@ -40,10 +40,6 @@
 	$turtle = $serialiser->serialise($graph, 'turtle');
 	file_put_contents('T-PRO_export.ttl', $turtle);
 	
-	/* $serialiserX = new EasyRdf_Serialiser_RdfXml;
-	$rdfxml = $serialiserX->serialise($graph, 'rdfxml');
-	file_put_contents('T-PRO.xml', $rdfxml); */
-	
 	$serialiserN = new EasyRdf_Serialiser_Ntriples;
 	$ntriples = $serialiserN->serialise($graph, 'ntriples');
 	file_put_contents('T-PRO.nt', $ntriples);
